@@ -1,0 +1,115 @@
+/*公共样式*/
+a, abbr, acronym, address, applet, article, aside, audio,
+b, big, blockquote, body, canvas, caption, center, cite, code, 
+dd, del, details, dfn, div, dl, dt, em, embed, fieldset, 
+figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, 
+header, hgroup, html, i, iframe, img, ins, kbd, label, legend, 
+li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, 
+samp, section, small, span, strike, strong, sub, summary, sup,
+table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, 
+video{ 
+ 	margin: 0;
+  	padding: 0; 
+  	border: 0; 
+  	font: inherit; 
+ 	vertical-align: baseline;
+ 	 word-wrap: break-word; 
+}
+ 
+
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+}
+
+button, input, select, textarea { 
+	outline: 0; 
+	-webkit-box-sizing: border-box; 
+}
+
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, section { 
+	display: block; 
+}
+
+li, ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:after, blockquote:before,
+q:after, q:before { 
+ 	content: ''; content: none;
+ 	 }
+
+b, strong { font-weight: 700; }
+
+img { 
+	max-width: 100%; 
+	vertical-align: middle; 
+	border: 0; -ms-interpolation-mode: bicubic; 
+	-webkit-touch-callout: none;
+	 }
+
+:focus { outline: 0; }
+
+a { color: #333; text-decoration: none; }
+
+a.active { color: #06c; }
+
+.clearfix:after{ 
+	content: ""; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.fr { float: right; }
+
+.fl { float: left; }
+
+input { 
+	outline: 0; -webkit-box-sizing: border-box;
+ 	-webkit-tap-highlight-color: transparent; 
+ 	-webkit-appearance: none; 
+}
+
+input:focus, textarea:focus { outline: 0; }
+
+.text-left { text-align: left; }
+
+.text-center { text-align: center; }
+
+.text-right { text-align: right; }
+
+.vm { vertical-align: middle; }
+
+.block { display: block !important; }
+
+.inline-block { display: inline-block !important; }
+
+.bold { font-weight: 700; }
+
+.red { color: #F80000; }
+
+.org { color: #F60; }
+
+.gray9 { color: #999 !important; }
+
+.gray6 { color: #666 !important; }
+
+.black { color: #1b1f2a !important; }
+
+.green { color: #81BF3D; }
+
+.blue { color: #004BBF; }
+
+.white { color: #fff; }
+
+.hide { display: none !important; }
+
+html { font-size: 62.5%; }
+
+body { 
+	font-size: 1.4rem; 
+	font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+}

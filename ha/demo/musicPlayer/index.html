@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 音乐播放器-轩陌</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <img src="" alt="" width="100%" height="100%" class="filter-img">
+        <header>
+            <div class="search">
+                <input type="text" name="" value="" placeholder="输入歌名">
+                <i class="iconfont icon-search1"></i>
+                <ul class="search-list"></ul>
+            </div>
+            <h2 class="music-title"></h2>
+            <p class="music-singer"></p>
+        </header>
+        <section>
+            <img src="" alt="" width="200px" height="200px" class="poster">
+            <!-- 歌词 -->
+            <div class="text-center lyric">
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <!-- 进度条 -->
+            <div class="player-progress">
+                <time class="current-time">00:00:00</time>
+                <div class="player-progress-load">
+                    <div class="player-progress-play">
+                        <i class="player-progress-dot"></i>
+                    </div>
+                </div>
+                <time class="total-time">00:00:00</time>
+            </div>
+            <div class="control">
+                <!-- 第二行控件 -->
+                <div class="control-row">
+                    <i id="backward" class="iconfont icon-set-backward"></i>
+                    <i id="play" class="iconfont icon-play"></i>
+                    <i id="forward" class="iconfont icon-set-forward"></i>
+                </div>
+                <!-- 第二行控件 -->
+                <div class="control-row">
+                    <i class="iconfont icon-menu-list1"></i>
+                    <i class="iconfont icon-share"></i>
+                    <div class="inline-block volume">
+                        <i class="iconfont icon-volume"></i>
+                        <div class="vol-progress">
+                            <i class="vol-progress-move"></i>
+                            <i class="vol-progress-dot"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 歌曲列表 -->
+        <ul class="music-list">
+            <i class="iconfont icon-close1"></i>
+        </ul>
+    </div>
+    <audio src="" autoplay="autoplay"></audio>
+    <script src="http://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/deta.js"></script>
+    <script src="js/control.js"></script>
+</body>
+</html>
