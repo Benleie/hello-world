@@ -4,4 +4,4 @@ em通过斜体进行强调。 属于phrasing content;
 blockquote引入引用,会有外边距；p是短引用，让浏览器自动添加引号
 
 关于bootstrap：
-jumbotron超大屏幕；
+jumbotron超大屏幕,out of "container", 然后如何处理下部的footer，使之hr可以填满width呢？
