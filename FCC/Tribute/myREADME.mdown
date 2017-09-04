@@ -5,3 +5,6 @@ blockquote引入引用,会有外边距；p是短引用，让浏览器自动添�
 
 关于bootstrap：
 jumbotron超大屏幕,out of "container", 然后如何处理下部的footer，使之hr可以填满width呢？
+引入jquery和bootstrap这两个js文件起到的作用？？
+
+
