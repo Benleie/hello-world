@@ -54,7 +54,7 @@ window.addEventListener('load',function(){
 	    // console.log(typeof arr)  //object
 	}
 	     
-	/*arr.addEventListener('click',function(){
+	/*XXX.addEventListener('click',function(){
 		console.log('hhh')
 	},false);*/
 	// console.log(document.getElementsByTagName('ul')[0].firstChild)
