@@ -61,6 +61,21 @@ window.addEventListener('load',function(){
 
 },false);
 
+window.addEventListener('load',function(){
+	var out = document.getElementsByTagName('li')[0].innerHTML;
+	console.log(out)
+	function myFunction(){
+		var change = document.getElementsByTagName('li')[0].innerHTML;
+		var input = document.getElementById('change').innerHTML;
+		console.log(input)
+
+	}
+})
+
+/*$(function(){
+	var out = $("ul li")[0].innerHTML;
+	console.log(out)
+})*/
 
 
 
