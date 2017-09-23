@@ -1,3 +1,14 @@
+let cl = console.log;
+function showTime() {
+	let now = new Date().toString()
+	let left = /2017\s/,
+		right = /GMT/;
+	left.exec(now)
+	now = RegExp.rightContext;
+	right.exec(now)
+	cl(RegExp.leftContext)
+}
+showTime()
 /*function drop(arr, func) {
   // Drop them elements.
   console.log(func(arr[0]));
@@ -162,26 +173,100 @@ missingLetter('abcdefghjklmno');*/
 boo(false);
 boo({ "a": 1 })*/
 
-function unite(arr1, arr2, arr3) {
+
+
+/*function unite(arr1, arr2, arr3) {
 	var args = [].slice.call(arguments);
 	var string = args.join();
-	var arr = string.split(',');
-	var nopeat = arr.filter(function(element, index, self){
+	var arrS = string.split(',');
+	var arr = []
+	for(let i = 0; i<arrS.length; i++)
+		arr.push(Number(arrS[i]))
+	arr = arr.filter(function(element, index, self){
 		return self.indexOf(element) === index;
 	})
 	console.log(arr)
-	console.log(args)
 	
     return arr1;
+}*/
+
+
+function binaryAgent(str) {
+  var arr=str.split(" ");
+  //Unicode编码？十进制二进制十六进制？
+  arr = arr.map(function(value){
+  	return parseInt(value,2)
+  })
+  var n = ''
+  for(let i = 0; i<arr.length; i++){
+  	n += String.fromCharCode(arr[i]);
+  }
+  // cl(n)
+  return n;
 }
 
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+
+var arr3 = ['01000001', '01110010']
+//cl(parseInt('01110010',2))  //114
+// cl(String.fromCharCode(65,66,67))
+
+
+function unite(arr1, arr2, arr3) {
+	var args = [].slice.call(arguments);
+	var reduced = args.reduce(function(a,b){
+		return a.concat(b);
+	},[])
+	cl(reduced)
+}
 unite([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+unite([1, 3, 2], [1, [5]], [2, [4]])
+
+/*;function(){
+	var some = ['you', 'rubbush', 'hehe', 'haha'];
+	// console.log(some.toString() === some.join())  //ture
+	var one = ['1','2'];
+	var oneArray = [];
+	for(let i = 0; i<one.length; i++){
+		oneArray.push(Number(one[i]));
+	}
+	console.log(one)
+	console.log(oneArray)
+}(this)*/
 
 
+/*
+function everyll(collection, prop) {
+  // Is everyone being true?
+  	function each(value,prop){
+		return value[prop]
+	}
+	var result = collection.every(each)
+	// cl(result)
+  	// cl(prop)
+  	return result;
+}
 
-var some = ['you', 'rubbush', 'hehe', 'haha'];
-console.log()
-console.log(some.toString() === some.join())
+everyll([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+function isBigEnough(element, index, array) {
+  return element >= 1;
+}
+var passed = [12, 5, 8, 130, 44].every(isBigEnough);
+// cl(passed)
+var test = {"user": "Tinky-Winky", "sex": 'male', "age": 10}
+var test2 = {"user": "Tinky-Winky", "sex": 'female'}
+var arrTest = [test, test2]
+function each(value,prop){
+	value = value[prop]
+	return value !== undefined && value!==null && value!==0 &&value!==false && value==value && value !=='';
+}
+var res = arrTest.every(each)
+cl(res)
+cl(each(test,'age'))
+
+*/
+
+
 
 
 

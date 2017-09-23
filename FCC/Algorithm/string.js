@@ -1,6 +1,7 @@
-function cl(some){
-	return console.log("IAM$$: " + some);
-}
+// function cl(some){
+// 	return console.log("IAM$$: " + some);
+// }
+let cl = console.log
 /*function palindrome(str){
 	
 	//var str1 = str.replace(/(^\s*)|(\s*$)/g, '');\

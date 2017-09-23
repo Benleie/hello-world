@@ -1,4 +1,14 @@
-
+let cl = console.log
+function showTime() {
+	let now = new Date().toString()
+	let left = /2017\s/,
+		right = /GMT/;
+	left.exec(now)
+	now = RegExp.rightContext;
+	right.exec(now)
+	cl(RegExp.leftContext)
+}
+showTime()
 /*function palindrome(str){
 	
 	//var str1 = str.replace(/(^\s*)|(\s*$)/g, '');\
@@ -106,4 +116,32 @@ mutation(["Mary", "Aarmy"]);*/
 
 bouncer([false , 66, 0, 'hh']);
 bouncer([false, null, 66, 'hh', 0, NaN, undefined, ""]);*/
+
+
+/*cl(typeof "green")   //string
+cl(typeof new String("green"))
+cl(typeof /google/)
+cl(typeof new RegExp("google"))*/
+/*var names = ['Alice', 'Bob', 'Alice',  'Bob', 'Tiff', 'Bruce', 'Alice',  'Bob', 'Alice',  'Bob'];
+var countedNames = names.reduce(function(allNames, name) { 
+	cl(allNames)
+  if (name in allNames) {
+    allNames[name]++;
+    cl(allNames)
+    cl(name)
+  }
+  else {
+    allNames[name] = 1;
+    cl(name)
+  }
+  return allNames;
+}, {});
+cl(countedNames)*/
+
+var reduce = [0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array){
+	cl(currentIndex)
+  return accumulator + currentValue;
+});
+
+
 

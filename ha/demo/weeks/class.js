@@ -62,6 +62,7 @@ class List {
 		this.length--;
 	}
 }
+/*
 let arr2 = new Array(10,11, 22, 33)
 arr2[10] = 120;
 arr2[9] = 111
@@ -74,14 +75,37 @@ list.push(11)
 list.push(22)
 list.pop()
 cl(list.memory)
+*/
 
+/*
+*9.23every方法的回调函数默认的参数是操作数组的，那么怎样获取到对象的属性
+*/
+/*var obj = {'name':'lee', 'sex':'male'}
+const isBiggerThan10 = (element, index, array) => {
+	cl(this)
+  return element > 10;
+}
+let large = [2,4,5,3,56,4].some(isBiggerThan10,[obj])
+cl(large)*/
 
-
-
-
-
-
-
+/*let obj1 = {'hhh':'bane'}
+let arr3 = ['h','hh','hhh']
+arr3[3.4] = 'jjj'
+arr3[1.2] = 'jjj'
+delete arr3[1]
+delete arr3[0] 
+arr3.map(function(value){
+	// cl(this)      //node的内部属性
+	cl(value)
+})
+cl(arr3.length)*/
+/*Array.prototype.forEach.call('a string', function(chr) {
+  console.log(chr);
+});*/
+let say = new Map()
+say.set('dog','woof')
+say.set('cat', 'mool')
+cl(say)
 
 
 
