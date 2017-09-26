@@ -106,6 +106,7 @@ let say = new Map()
 say.set('dog','woof')
 say.set('cat', 'mool')
 cl(say)
+console.log(0 + false)
 
 
 
