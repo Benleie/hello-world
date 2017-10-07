@@ -92,9 +92,71 @@ a()
 
 
 
+作业
+一：得到rgb的表达形式
+```javascript
+var getRGB = function(hexo){
+	var arr = [3];
+	for(let i = 0;i<3;i++){
+		let num = hexo.slice(2*i,2*i+2)
+		arr[i] = parseInt(num,16)
+	}
+	return 'rgb('+arr[0]+','+arr[1]+','+arr[2]+")"
+}
+```
+
+
+二：输出什么
+```javascript
+cl(parseInt(1e1))      //10
+cl(parseInt('1e1'))    //1
+cl(parseFloat('1e1'))  //10
+cl(isFinite(0/10))     //true
+cl(isFinite(20/0))     //false
+cl(isNaN(parseInt(NaN)))   //true
+```
+
+
+三：输出什么
+```javascript
+var a = 1;
+function f(){
+	function n(){
+		cl(a)
+	}
+	var a = 2;
+	n();
+}
+f()   //2
+```
+
+四：解释
+```javascript
+var f = console.log;
+eval('f("Boo!")')     //将console.log函数赋值给变量f
+
+var e;
+var f = console.log;
+eval('e = f')('Boooo')   //eval('e = f')相当于调用函数console.log,参数在后面跟着
+
+! function(){ return console.log}
+()('Bo!')                   //函数表达式自调用，返回console.log函数,然后调用之
+```
 
 ```javascript
 ```
+
+```javascript
+```
+
+```javascript
+```
+```javascript
+```
+
+```javascript
+```
+
 
 
 

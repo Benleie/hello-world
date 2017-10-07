@@ -10,16 +10,17 @@ function showTime() {
 }
 showTime();
 
-var inner;
-function out(){
-	var b = 'local variable';
-	var N = function(){
-		return b;
-	}
-	inner = N;
-}  
-out()
-cl(inner())
+/*let str = ',sss,,,'
+// str = str - ',,,'    //NaN
+//str = str.replace(',','')  //sss,,,
+let coma = /\s+$/g
+str = str.replace(coma,'')
+cl(str)*/
+
+
+
+
+
 
 
 
@@ -32,6 +33,29 @@ cl(inner())
 
 
 /*
+
+
+var getRGB = function(hexo){
+	var arr = [3];
+	for(let i = 0;i<3;i++){
+		let num = hexo.slice(2*i,2*i+2)
+		arr[i] = parseInt(num,16)
+	}
+	return 'rgb('+arr[0]+','+arr[1]+','+arr[2]+")"
+}
+cl(parseInt('00FF00',16))
+cl(getRGB('45FF00'))
+
+var inner;
+function out(){
+	var b = 'local variable';
+	var N = function(){
+		return b;
+	}
+	inner = N;
+}  
+out()
+cl(inner())
 
 function add(){
 	let result = 0;
@@ -57,6 +81,14 @@ cl(undefined + 1)
 
 */
 
-
+/*var a = 1;
+function f(){
+	function n(){
+		cl(a)
+	}
+	var a = 2;
+	return n;
+}
+f()()*/
 
 
