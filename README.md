@@ -5,7 +5,7 @@
 
 [数据结构的学习](./ha/dataStructure/readme.md)
 
-[想要模仿的项目们](./ha/demo/stars.md)
+[想要模仿的项目们](./ha/demo/stars.md)。 日常的墨迹墨迹在[这里](./memo/readme.md)
 
 
 
