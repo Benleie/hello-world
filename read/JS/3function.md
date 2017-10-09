@@ -1,4 +1,4 @@
-1改进函数add
+1.改进函数add
 ```javascript
 function add(){
 	let result = 0;
@@ -13,8 +13,8 @@ add(2,4,5,6,3)   //20
 isFinite(1e309)  //false
 isFinite(1e308)  //true
 ```
-eval有何用途？
-4  function literal notation; named function expression竟然还有这种写法,myFunc是名存实亡的
+eval有何用途？   
+4.function literal notation; named function expression竟然还有这种写法,myFunc是名存实亡的
 ```javascript
 var f = function myFunc() {
 	cl(666)
@@ -36,7 +36,9 @@ let res = invoke(
 cl(res)    //3
 ```
 
-即时函数，函数表达式的即时调用；这种写法应该无所谓`return`吧。
+即时函数，函数表达式的即时调用；  
+这种写法应该无所谓`return`吧。
+
 不产生全局变量，常用于初始化
 ```javascript
 (function(num){
@@ -63,6 +65,7 @@ var newFunc = a();
 newFunc()
 a()()
 ```
+
 4.7初始化后的重写
 ```javascript
 function a(){
@@ -74,6 +77,7 @@ function a(){
 a()    //1
 a()    //AA
 ```
+
 加载后重写，可以用于浏览器兼容
 ```javascript
 var a = (function(){
@@ -142,22 +146,3 @@ eval('e = f')('Boooo')   //eval('e = f')相当于调用函数console.log,参数�
 ! function(){ return console.log}
 ()('Bo!')                   //函数表达式自调用，返回console.log函数,然后调用之
 ```
-
-```javascript
-```
-
-```javascript
-```
-
-```javascript
-```
-```javascript
-```
-
-```javascript
-```
-
-
-
-
-

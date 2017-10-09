@@ -18,23 +18,42 @@ let key = 'name'
 cl(person[key])
 */
 
-/*
-cl(this)
-function guess(){
-	cl(this)
-}
-guess()
-*/
+
 
 /*let a = 1;
-cl(this.a)*/
+cl(this.a)    //undefined
+*/
 
-function tobe(){
-	this.a = 1;
-	return this;
+/*function Cat(name, color){
+	return {
+		names:name,
+		color:color
+	}
 }
-cl(tobe())  //boolean
-cl(new tobe())   //object
+var cat1 = Cat('大毛','黄色')
+cl(cat1)
+*/
+function Animal(){
+	this.species = '动物';
+}
+/*function Cat(name,color){
+	Animal.apply(this);
+	this.name = name;
+	this.color = color;
+}
+var cat1 = new Cat('大毛','黄色');
+cl(cat1.species)*/
+function Cat(name,color){
+	this.name = name;
+	this.color = color;
+}
+// Cat.prototype = new Animal()
+// cl(Cat.prototype.constructor)   //[Function: Animal]
+
+// var F = function(){};
+// F.prototype = Animal.prototype;
+// Cat.prototype = new F();
+// cl(Cat.prototype.constructor)   //[Function: Animal]
 
 
 
@@ -53,29 +72,14 @@ cl(new tobe())   //object
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*var str = new String('fool me')
+cl(str instanceof String)*/
 
 
 /*var child = require('child_process');
 child.exec('D:\\管理C盘\\软件们\\我爱\\firefox.exe http://www.jianshu.com/p/499ebfae2b50')
 */
-var http=require('http');
+// var http=require('http');
 //get 请求外网
 /*let count = 0;
 for(let i = 0; i<16; i++){
@@ -104,7 +108,13 @@ cl(count)*/
 	});*/
 
 
-
+/*
+cl(this)
+function guess(){
+	cl(this)
+}
+guess()
+*/
 
 
 
