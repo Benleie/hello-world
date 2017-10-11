@@ -11,17 +11,93 @@ function showTime() {
 showTime();
 
 
-let Vector = function(arr){
 
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function descendingOrder(n){
+  	if(n < 0)  throw new Error('negative!!')
+  	let arr = n.toString().split('').map(v=>Number(v))
+  	arr.sort(function(a,b){
+  		return b - a;
+  	})
+  	return Number(arr.join(''))
+}
+function descendingOrder(n){
+  return parseInt(String(n).split('').sort().reverse().join(''))
+}
+// cl(descendingOrder(123456789))
+
+
+
+let Vector = function(arr){
+	// this[0] = 'ggg';
+	this.arr = arr;
 }
 Vector.prototype.add = function(arrB){
-	
+	if(this.arr.length !== arrB.arr.length)
+		throw 'gg';
+	let result = [];
+	for(let i = 0; i<this.arr.length; i++){
+		result.push(this.arr[i]+arrB.arr[i])
+	}
+	return new Vector(result);
 }
-var a = new Vector([1,2]);
-var b = new Vector([3,4]);
-cl(a.add(b))
+Vector.prototype.subtract = function(arrB){
+	if(this.arr.length !== arrB.arr.length)
+		throw  'gg';
+	let result = [];
+	for(let i = 0; i<this.arr.length; i++){
+		result.push(this.arr[i]-arrB.arr[i])
+	}
+	return new Vector(result);
+}
+Vector.prototype.dot = function(arrB){
+	if(this.arr.length !== arrB.arr.length)
+		throw 'gg';
+	let result = 0;
+	for(let i = 0; i<this.arr.length; i++){
+		result += this.arr[i]*arrB.arr[i]
+	}
+	return result;
+}
+Vector.prototype.norm = function(){
+	let num = 0;
+	for(let i = 0; i<this.arr.length;i++){
+		num += Math.pow(this.arr[i],2)
+	}
+	return Math.sqrt(num)
+	// return this.map((value,index)=>{Math.pow(this.arr[index],2)})
+}
+Vector.prototype.toString = function(){
+	return '(' + this.arr.toString()+')'
+}
+Vector.prototype.equals = function(arrB){
+	// if(this.arr.length !== arrB.arr.length)
+	// 	throw 'gg';
+	for(let i = 0; i<this.arr.length; i++){
+		if(this.arr[i] != arrB.arr[i])
+			return false;
+	}
+	return true;
+
+}
+// var a = new Vector([111,2222]);
+// var b = new Vector([333,4444]);
+// var c = new Vector([3,4,5]);
+/*cl(a.toString())
+cl(c.norm())*/
 
 
 
@@ -36,15 +112,7 @@ cl(a.add(b))
 
 
 
-
-
-
-
-
-
-
-
-/*function Fighter(name, health, damagePerAttack) {
+function Fighter(name, health, damagePerAttack) {
     this.name = name;
     this.health = health;
     this.damagePerAttack = damagePerAttack;
@@ -65,9 +133,9 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
 			return fighter1.name
 	}
 }
-let winner = declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew")
+/*let winner = declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew")
 cl(winner)
-cl(declareWinner(new Fighter("Jerry", 30, 3), new Fighter("Harald", 20, 5), "Jerry"))
+cl(declareWinner(new Fighter("Jerry", 30, 3), new Fighter("Harald", 20, 5), "Jerry"))*/
 
 function declareWinner(fighter1, fighter2, firstAttacker) {
   var fac1 = Math.ceil( fighter1.health / fighter2.damagePerAttack );
@@ -79,15 +147,15 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
   } else {
     return firstAttacker;
   }
-}*/
+}
 
-/*var list1 = [
+var list1 = [
   { firstName: 'Noah', lastName: 'M.', country: 'Switzerland', continent: 'Europe', age: 19, language: 'JavaScript' },
   { firstName: 'Maia', lastName: 'S.', country: 'Tahiti', continent: 'Oceania', age: 28, language: 'JavaScript' },
   { firstName: 'Shufen', lastName: 'L.', country: 'Taiwan', continent: 'Asia', age: 35, language: 'HTML' },
   { firstName: 'Sumayah', lastName: 'M.', country: 'Tajikistan', continent: 'Asia', age: 30, language: 'CSS' }
-];*/
-/*function countDevelopers(list) {
+];
+function countDevelopers(list) {
 	let count = 0;
 	for(let i = 0; i<list.length; i++){
 		if(list[i].continent === 'Europe' && list[i].language === 'JavaScript')
@@ -95,10 +163,10 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
 	}
 	return count;
 }
-cl(countDevelopers(list1))
+// cl(countDevelopers(list1))
 function countDevelopers(list) {
   return list.filter(x=>x.continent=='Europe'&&x.language=='JavaScript').length
-}*/
+}
 
 // let pipeFix = nums => Array.from({ length: nums.pop() - nums[0] + 1 }, (v, i) => i + nums[0]);
 
@@ -119,7 +187,7 @@ var Ball = function(ballType){
 }
 
 
-/*
+
 let data = {
 	english: 'Welcome',
 	czech: 'Vitejte',
@@ -138,21 +206,21 @@ function greet(languague){
 	return data[languague];
 	
 }
-cl(greet('IP_ADDRESS_INVALI'))
-*/
+// cl(greet('IP_ADDRESS_INVALI'))
 
-/*function getMiddle(str){
+
+function getMiddle(str){
 	len = str.length;
 	return len&1 ? str[(len-1)/2] : str.substr(len/2-1,2);
 	
 }
-cl(getMiddle('abcdefgh'))*/
+// cl(getMiddle('abcdefgh'))
 /*if(len & 1)
 		cl(str[(len-1)/2])
 	else
 		cl(str.substr(len/2-1,2))*/
 
-/*function accum(str){
+function accum(str){
 	let arr = str.toLowerCase().split(''),
 		result = [];
 	for(let i = 0; i<arr.length; i++){
@@ -164,7 +232,7 @@ cl(getMiddle('abcdefgh'))*/
 	return result.join('-');
 
 }
-cl(accum('abcdf'))*/
+// cl(accum('abcdf'))
 
 /*let decodeMorse = function(morseCode){
 
@@ -184,7 +252,7 @@ for(let i = 0; i<arr1.length; i++){
 }
 cl(arr)*/
 
-/*let notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+let notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
 
 function chords(root) {
 	let majorChord = [],
@@ -199,7 +267,7 @@ function chords(root) {
 	minorChord = [root,myNotes[index+3],myNotes[index+7]];
    	return [majorChord, minorChord];
 }
-cl(chords('G'))*/
+// cl(chords('G'))
 
 /*function solution(pairs){
 	var arr = Object.getOwnPropertyNames(pairs)
@@ -227,3 +295,61 @@ cl(nbYear(1500, 5, 100, 5000))*/
   return values.filter( x=>x&1 );
 }
 cl(odds([1,2,3,4,5]))*/
+
+function solution(number){
+	let result = 0;
+	for(let i = 0; i<number;i++){
+		if(i%3 === 0 || i%5 === 0 )
+			result += i;
+	}
+	return result;
+}
+// cl(solution(23))
+
+function sumDigPow(a, b) {
+	let result = [];
+	for(let i = a; i<=b; i++){
+		let num = i.toString(),
+			add = 0
+		for(let j = 0;j<num.length;j++){
+			add += Math.pow(num[j],j+1)
+		}
+		if(add === i)
+			result.push(i)
+	}
+	return result;
+}
+// cl(sumDigPow(1,1000))
+function queueTime(customers, n) {
+	let till = Array(n);
+	if(till.length > customers.length)
+		return Math.max.apply(null,customers)
+	for(let i=0; i<till.length; i++){
+		till[i] = customers[i];
+	}
+	for(let i = till.length; i<customers.length;i++){
+		let min = till.indexOf(Math.min.apply(null,till))
+		till[min] += customers[i];
+	}
+	return Math.max.apply(null,till);
+}
+// cl(queueTime([1,2,3,4], 3))
+// var arrMix = [1,2,2,3,3,-3,4,4];
+// cl(arrMix.indexOf(Math.min.apply(null,arrMix)))
+
+/*var func = ['one','two','three'],
+	funcNum = [1,2,3];
+	let ooo = func[0]
+	let hhhhh = eval(ooo)
+function hhhhh(some){
+	return funcNum[0]+some;
+}
+cl(one(100))*/
+
+console.log(Object.prototype.constructor) // true
+
+
+
+
+
+
