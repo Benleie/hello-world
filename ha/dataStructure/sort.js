@@ -1,14 +1,3 @@
-let cl = console.log
-function showTime() {
-	let now = new Date().toString()
-	let left = /2017\s/,
-		right = /GMT/;
-	left.exec(now)
-	now = RegExp.rightContext;
-	right.exec(now)
-	cl(RegExp.leftContext)
-}
-showTime()
 
 let quickSort = function(arr) {
 	if(arr.length <= 1) return arr;
