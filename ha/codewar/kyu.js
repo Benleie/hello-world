@@ -18,12 +18,28 @@ showTime();
 
 
 
-
-
-
-
-
-
+function findOdd(arr){
+	let uniqueArr = [],
+		odd = 0
+	for(let i = 0;i<arr.length; i++){
+		if(!uniqueArr.includes(arr[i]))
+			uniqueArr.push(arr[i])
+	}
+	for(let i=0; i<uniqueArr.length;i++){
+		let count = 0
+		for(let j=0;j<arr.length;j++){
+			if(arr[j] === uniqueArr[i])
+				count++;
+		}
+		cl('hh')
+		if(count%2){
+			odd = i;
+			break;
+		}
+	}
+	return uniqueArr[odd]
+}
+findOdd = (xs) => xs.reduce((a, b) => a ^ b);
 
 
 function descendingOrder(n){
