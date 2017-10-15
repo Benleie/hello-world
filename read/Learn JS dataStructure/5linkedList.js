@@ -27,8 +27,8 @@ function LinkedList(){
 				previous,
 				index = 0;
 			if(position === 0)
-				current = current.next
-			
+				head = current.next;
+
 		}
 	}
 	this.remove = function(element){}
