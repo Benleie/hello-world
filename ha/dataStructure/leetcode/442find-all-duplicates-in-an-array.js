@@ -14,3 +14,11 @@ var findDuplicates = function(nums){
 	}
 	return result;
 };
+
+//经典数组去重  五万个数字测试时，这种方法的效率会比哈希法慢几十倍
+var findDuplicates = function(nums){
+	return nums.filter(function(item, index, array) {
+    return array.indexOf(item) !== index;
+  });
+};
+
