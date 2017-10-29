@@ -31,5 +31,5 @@ childNodes,每一个element都被text节点包围；
 属性节点，nodeType2已被废弃
 NodeType属性：element节点——null;Text节点——content of the text node。
 
-[实操效果](http://hhh.awecg.me/my/show/domscript_4.htm)
+[实操效果](http://hhh.awecg.me/my/show/domscript_4.html)
 

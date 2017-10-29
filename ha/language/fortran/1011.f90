@@ -131,12 +131,12 @@ print 20,((b(j,i),i=1,1),j=1,4)
 parameter(n=10)
 integer a(n,n)
 do i=1,n
-	a(i,1) = 1
-	a(i,i) = 1
+    a(i,1) = 1
+    a(i,i) = 1
 enddo
 do i=3,n
 	do j=2,i-1
-		a(i,j) = a(i-1,j-1) + a(i-1,j)
+        a(i,j) = a(i-1,j-1) + a(i-1,j)
 	enddo
 enddo
 do i=1,n
