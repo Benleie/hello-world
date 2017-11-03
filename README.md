@@ -5,13 +5,14 @@
 
 [数据结构的学习](./ha/dataStructure/readme.md)
 
-[想要模仿的项目们](./ha/demo/stars.md)。 日常的墨迹墨迹在[这里](./memo/readme.md)
+[想要模仿的项目们](./ha/demo/stars.md),日常的墨迹墨迹在[这里](./memo/readme.md)
 
 [仰望大佬们](./ha/dalao.md)
 
 [underscore源码阅读](https://yoyoyohamapi.gitbooks.io/undersercore-analysis/content/base/%E7%BB%93%E6%9E%84.html)
 
-[rainyday渲染zen](./ha/demo/zen garden/readme)
+
+[rainyday渲染zen](./ha/demo/zenGarden/readme.md)
 
 [jquery ui](./ha/codecademy/UI/readme.md)
 
