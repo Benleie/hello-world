@@ -8,6 +8,8 @@ var config = require('./default.js')
 
 var routes = require('./routes');
 var pkg = require('./package');
+var winston = require('winston');
+var expressWinston = require('express-winston');
 
 var app = express();
 // 设置模板目录
@@ -50,8 +52,32 @@ app.use(function (req, res, next) {
   next();
 });
 
+// 正常请求的日志
+app.use(expressWinston.logger({
+  transports: [
+    new (winston.transports.Console)({
+      json: true,
+      colorize: true
+    }),
+    new winston.transports.File({
+      filename: 'logs/success.log'
+    })
+  ]
+}));
 // 路由
 routes(app);
+// 错误请求的日志
+app.use(expressWinston.errorLogger({
+  transports: [
+    new winston.transports.Console({
+      json: true,
+      colorize: true
+    }),
+    new winston.transports.File({
+      filename: 'logs/error.log'
+    })
+  ]
+}));
 
 console.log(process.pid)
 app.listen(config.port, function () {
