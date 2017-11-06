@@ -1,6 +1,5 @@
 module.exports = function (app) {
 	app.get('/', function (req, res) {
-		console.log("她的ip：",req.ip)
 		res.redirect('/posts');
 	});
 	app.use('/signup', require('./signup'));
