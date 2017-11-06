@@ -1,7 +1,7 @@
 {
-  "name": "myblog",
+  "name": "野鸡知乎",
   "version": "1.0.0",
-  "description": "my first blog by express",
+  "description": "在这里，分享你的见解、经历与牛逼",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

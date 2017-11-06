@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>11.06</title>
+	<link rel="stylesheet" href="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../../semantic/semantic.css"> -->
+	<style type="text/css">
+		body {
+		  width: 1100px;
+		  height: 100%;
+		  margin: 0 auto;
+		  padding-top: 40px;
+		  /*background-color: wheat;*/
+		}
+		.show {
+			padding-bottom: 40px;
+		}
+	</style>
+	<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.js"></script>
+</head>
+
+
+<body>
+	<div id="button" class="show">
+		<button class="ui button">关注</button>
+		<button class="ui primary button">Save </button>
+		<button class="ui button">Discard </button>
+		<button class="ui secondary button">Okay </button>
+		<button class="ui button">Cancel </button>
+		<div class="ui animated button" tabindex="0">
+		  <div class="visible content">Next</div>
+		  <div class="hidden content">
+		    <i class="right arrow icon"></i>
+		  </div>
+		</div>
+		<div class="ui vertical animated button" tabindex="0">
+		  <div class="hidden content">Shop</div>
+		  <div class="visible content">
+		    <i class="shop icon"></i>
+		  </div>
+		</div>
+		<div class="ui animated fade button" tabindex="0">
+		  <div class="visible content">Sign-up for a Pro account</div>
+		  <div class="hidden content">每月12.99美元 </div>
+		</div>
+	</div>
+
+	<div class="ui attached stackable menu show" style="background-color: rgb(246, 244, 236);">
+	  <div class="ui container">
+	    <a class="item">
+	      <i class="home icon"></i> Home
+	    </a>
+	    <a class="item">
+	      <i class="grid layout icon"></i> Browse
+	    </a>
+	    <a class="item">
+	      <i class="mail icon"></i> Messages
+	    </a>
+	    <div class="ui simple dropdown item">
+	      More
+	      <i class="dropdown icon"></i>
+	      <div class="menu" style="background-color: rgb(246, 244, 236);">
+	        <a class="item"><i class="edit icon"></i> Edit Profile</a>
+	        <a class="item"><i class="globe icon"></i> Choose Language</a>
+	        <a class="item"><i class="settings icon"></i> Account Settings</a>
+	      </div>
+	    </div>
+	    <div class="right item">
+	      <div class="ui input"><input type="text" placeholder="Search..." style="background-color: rgb(246, 244, 236);"></div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="ui center aligned basic segment show">
+	  <div class="ui left icon action input">
+	    <i class="search icon"></i>
+	    <input type="text" placeholder="Order #" style="background-color: rgb(246, 244, 236);">
+	    <div class="ui blue submit button">搜索</div>
+	  </div>
+	  <div class="ui horizontal divider">Or </div>
+	  <div class="ui teal labeled icon button">Create New Order <i class="add icon"></i> </div>
+	</div>	
+
+	<div show>
+		<p>按钮</p>
+		<p>容器</p>
+	</div>
+	
+</body>
+</html>
