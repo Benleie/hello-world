@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>instance</title>
+	<script src="vue.js"></script>
+</head>
+<body>
+	<div class='first'>
+		<p>改变: {{ message }}</p>
+		<p v-once>不变是真心: {{ message }}</p>
+		<input v-model="message">
+		<p>{{rawHTML}}</p>
+		<p><span v-html='rawHTML'></span></p>
+	</div>
+
+<div id="example">
+  <p>Original message: "{{ message }}"</p>
+  <p>Computed reversed message: "{{ reversedMessage }}"</p>
+</div>
+
+	<script type="text/javascript">
+		var vm = new Vue({
+		  el: '#example',
+		  data: {
+		    message: 'Hello'
+		  },
+		  computed: {
+		    // 计算属性的 getter
+		    reversedMessage: function () {
+		      // `this` 指向 vm 实例
+		      return this.message.split('').reverse().join('')
+		    }
+		  }
+		})
+
+		
+		var first = new Vue({
+			el: ".first",
+			data: { 
+				message:"hello,vue",
+				rawHTML:"<span style='color:red'>This should be red</span>"
+			}
+
+		})
+	</script>
+</body>
+</html>
