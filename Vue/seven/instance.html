@@ -3,11 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>instance</title>
+	<style type="text/css">
+		div {
+			border:1px red solid;
+		}
+	</style>
 	<script src="vue.js"></script>
 </head>
 <body>
 	<div class='first'>
 		<p>改变: {{ message }}</p>
+		<p>Reversed message: "{{ reversedMessage() }}"</p>
+		<p>{{ time() }} </p>
 		<p v-once>不变是真心: {{ message }}</p>
 		<input v-model="message">
 		<p>{{rawHTML}}</p>
@@ -17,19 +24,57 @@
 <div id="example">
   <p>Original message: "{{ message }}"</p>
   <p>Computed reversed message: "{{ reversedMessage }}"</p>
+  <p>{{ time }} </p>
+  <p>{{now}} </p>
+
 </div>
 
+	<div id="demo">{{ fullName }}
+		<p>first name: {{ firstName }}    and last name: {{ lastName }} </p>
+	</div>
+
 	<script type="text/javascript">
+
 		var vm = new Vue({
+		  el: '#demo',
+		  data: {
+		    firstName: 'Foo',
+		    lastName: 'Bar'
+		  },
+		  computed: {
+			  fullName: {
+			    // getter
+			    get: function () {
+			      return this.firstName + ' ' + this.lastName
+			    },
+			    // setter
+			    set: function (newValue) {
+			      var names = newValue.split(' ')
+			      this.firstName = names[0]
+			      this.lastName = names[names.length - 1]
+			    }
+			  }
+			}
+		})
+
+
+		var time66 = new Date()
+		var example = new Vue({
 		  el: '#example',
 		  data: {
-		    message: 'Hello'
+		    message: 'Hello',
+		    time: time66
+
 		  },
 		  computed: {
 		    // 计算属性的 getter
 		    reversedMessage: function () {
 		      // `this` 指向 vm 实例
 		      return this.message.split('').reverse().join('')
+		    },
+		    now:function(){
+		    	// return Date.now();
+		    	return new Date();
 		    }
 		  }
 		})
@@ -40,8 +85,16 @@
 			data: { 
 				message:"hello,vue",
 				rawHTML:"<span style='color:red'>This should be red</span>"
-			}
+			},
+			methods: {
+			  reversedMessage: function () {
+			    return this.message.split('').reverse().join('')
+			  },
+			  time: function(){
+			  	return new Date();
+			  }
 
+			}
 		})
 	</script>
 </body>
