@@ -3,6 +3,7 @@ Vue七天速成记
 
 ## day2
 当通过计算属性改变数据过于复杂时可以用watch来监听数据。
+toggle是怎样切换的？每次通过this直接更改一次loginType的值？
 
 ##  day1
 声明式渲染：message为什么被console可以随时更新？
