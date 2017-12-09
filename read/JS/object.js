@@ -1,3 +1,4 @@
+
 let cl = console.log
 function showTime() {
 	let now = new Date().toString()
