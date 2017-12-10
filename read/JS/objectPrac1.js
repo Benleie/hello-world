@@ -1,4 +1,4 @@
-//Created on 2017,12,09
+//Created on 2017-12-09
 // 参考————http://blog.csdn.net/webxiaoma/article/details/70160811
 // 涉及知识点————面向对象编程，this,tostring()
 (function showTime() {
