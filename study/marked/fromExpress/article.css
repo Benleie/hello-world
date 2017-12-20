@@ -1,0 +1,54 @@
+body{
+	/*margin: 100px 20%;*/
+	background: wheat;
+} 
+ul, li {
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+}
+#header{
+    width: 100%;
+    height: 40px;
+    background: #2e6da4;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+#header .left{
+	float: left;
+	margin-left: 45%;
+}
+#header a{
+	text-decoration: none;
+	color: lightgray;
+	display: block;
+}
+#header li{
+	width: 50%;
+	height: 38px;
+	text-align: center;
+	float: left;
+}
+#header ul{
+	/*border: 1px solid red;*/
+	width: 15%;
+}
+#md,#html{
+    height: 510px;
+}
+#md{
+    resize: none;
+}
+#html{
+    border: solid 1px darkgrey;
+    border-radius: 5px;
+}
+.right {
+	float: right;
+}
+
+
+

@@ -1,3 +1,6 @@
++ modal如何显示在屏幕正中心？
+
+
 ## 概括
 12栏栅格结构的布局
 jquery UI bootstrap听起来很贱。
