@@ -1,5 +1,10 @@
 惊闻余博伦大大平均两个月拿一个FCC证书，半年内闯关成功，叹服！
 
+##初级
+
+[Build a Personal Portfolio Webpage](https://www.freecodecamp.cn/challenges/build-a-personal-portfolio-webpage) 
+[弹幕墙](https://www.freecodecamp.cn/challenges/design-a-danmu-app)
+
 ## 中级
 [Build a Random Quote Machine](https://www.freecodecamp.cn/challenges/build-a-random-quote-machine)
 
