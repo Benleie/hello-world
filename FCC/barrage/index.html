@@ -24,6 +24,25 @@
 		<h4 class="text-center">young king 孜孜不倦地学习着姿势</h4>
 	</div>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 ">
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1">---</span>
+				  <input type="text" class="form-control txt" placeholder="说点什么" aria-describedby="basic-addon1">
+				</div>
+				<br><br>
+				<div class="center-block" aria-label="..." style="width: 150px;">
+				  <button type="button" class="btn btn-primary  send">发射</button>
+				  <button type="button" class="btn btn-danger   clear">清屏</button>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		
+	</div>
+
 	
 	
 
@@ -41,6 +60,25 @@
         var arr = [];
         for(let i = 0; i<data.length; i++) 
         	arr.push(data[i]);
+
+        $(".send").click(function() {
+            var text = $(".txt").val();
+            arr.push(text);
+            $(".txt").val('');
+        });
+		$(".txt").keypress(function(event) {
+            if (event.keyCode == "13") {
+                $(".send").trigger('click');
+            }
+        });
+        $(".clear").click(function() {
+            arr = [];
+            $('.show p').empty();
+        });
+
+        
+
+
 		var topMin = $('.show').offset().top;
         var topMax = topMin + $('.show').height();
         var _top = topMin;
@@ -59,7 +97,6 @@
             var time = 10000 + 10000 * Math.random();
             obj.animate({
                 // left: "-" + _left + "px"
-                // left: (innerWidth - $('.show').width()) / 2 + "px"
                 left: $(".show").offset().left + "px"
             }, time , function() {
                 obj.remove();

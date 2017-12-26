@@ -8,7 +8,7 @@
 
 [仰望大佬们](./ha/dalao.md)
 
-[做什么](./ha/envision.md)
+[干](./ha/envision.md)
 
 [underscore源码阅读](https://yoyoyohamapi.gitbooks.io/undersercore-analysis/content/base/%E7%BB%93%E6%9E%84.html)
 
