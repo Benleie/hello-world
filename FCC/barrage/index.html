@@ -84,7 +84,7 @@
         var _top = topMin;
         // console.log(arr)
         var moveObj = function(obj) {
-            var _left = $('.show').width();
+            var _left = $('.show').width() - obj.width();  
             _top = _top + 50;
             if (_top > (topMax - 50)) {
                 _top = topMin;
@@ -117,12 +117,13 @@
                 moveObj(textObj);
             }
 
-            setTimeout(getAndRun, 1000);
+            setTimeout(getAndRun, 2000);
 
         }
 
         jQuery.fx.interval = 50;
         getAndRun();
+        console.log($('.show').width())
 	</script>
 </body>
 </html>

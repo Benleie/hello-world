@@ -52,7 +52,7 @@
         height: 380px;
     }
 
-    .dm .dm_screen .dm_show div {
+    .dm .dm_screen .dm_show p {
         font-size: 22px;
         line-height: 36px;
         font-weight: 500;
@@ -129,7 +129,7 @@
             var text = snapshot.val();
             arr.push(text);
             console.log("arr====", arr)
-            var textObj = $("<div class=\"dm_message\"></div>");
+            var textObj = $("<p class=\"dm_message\"></p>");
             textObj.text(text);
             $(".dm_show").append(textObj);
             moveObj(textObj);
@@ -173,7 +173,7 @@
         var getAndRun = function() {
             if (arr.length > 0) {
                 var n = Math.floor(Math.random() * arr.length + 1) - 1;
-                var textObj = $("<div>" + arr[n] + "</div>");
+                var textObj = $("<p>" + arr[n] + "</p>");
                 $(".dm_show").append(textObj);
                 moveObj(textObj);
             }

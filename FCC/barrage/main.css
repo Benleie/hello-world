@@ -5,6 +5,11 @@ body {
 	width:100%;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .border {
 	border: 1px solid grey;
 }
@@ -16,6 +21,7 @@ body {
 
 
 .show p  {
+
     font-size: 22px;
     line-height: 36px;
     font-weight: 500;
