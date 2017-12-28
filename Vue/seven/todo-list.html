@@ -7,10 +7,33 @@
 		div {
 			border: 3px solid gray;
 			border-radius: 2px 4px 2px;
+			margin-top: 20px;
 		}
 	</style>
+	<script type="text/javascript" src="vue.js"></script>
+
 </head>
 <body>
+	
+	<div class="array">
+		<li v-for="item in items">
+			{{ item.message}}
+		</li>
+	</div>
+	<script type="text/javascript">
+		var array = new Vue({
+			//el:".array",
+			data:{
+				items:[
+					{message:"you must do it well"},
+					{message:"commonplace"}
+				]
+			}
+		})
+	</script>
+
+
+
 
 	<div id="todo-list-example">
 	  <input
@@ -29,18 +52,6 @@
 	  </ul>
 	</div>
 
-
-	<div id="example-2">
-		<p>data必须是函数，避免不同组件共享同一个对象。</p>
-	  <simple-counter></simple-counter>
-	  <simple-counter></simple-counter>
-	  <simple-counter></simple-counter>
-	</div>
-
-
-
-
-	<script type="text/javascript" src="vue.js"></script>
 	<script type="text/javascript">
 		Vue.component('todo-item', {
 		  template: '\
@@ -86,8 +97,15 @@
 		    }
 		  }
 		})
+	</script>
 
-
+	<div id="example-2">
+		<p>data必须是函数，避免不同组件共享同一个对象。</p>
+	  <simple-counter></simple-counter>
+	  <simple-counter></simple-counter>
+	  <simple-counter></simple-counter>
+	</div>
+	<script type="text/javascript">
 		var data = { counter: 0 }
 
 		Vue.component('simple-counter', {
@@ -105,6 +123,7 @@
 		  el: '#example-2'
 		})
 	</script>
+	
 
 
 </body>

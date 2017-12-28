@@ -12,13 +12,13 @@
 		<h4 class="text-center">文逼伯德第一，武逼韦德第一</h4>
 		<div class="row show">
 			<div class="col-md-4">	
-				<img src="./image/they.webp" alt="arm folded in chest" class=" img-responsive">
+				<img src="./image/they.webp" alt="韦德arm folded in chest.抱歉，webp格式的图片貌似只有chrome浏览器支持" class=" img-responsive">
 			</div>
 			<div class="col-md-4">	
-				<img src="./image/they.webp" alt="arm folded in chest" class=" img-responsive">
+				<img src="./image/they.webp" alt="韦德arm folded in chest.抱歉，webp格式的图片貌似只有chrome浏览器支持" class=" img-responsive">
 			</div>
 			<div class="col-md-4">	
-				<img src="./image/they.webp" alt="arm folded in chest" class=" img-responsive">
+				<img src="./image/they.webp" alt="韦德arm folded in chest.抱歉，webp格式的图片貌似只有chrome浏览器支持" class=" img-responsive">
 			</div>
 		</div>
 		<h4 class="text-center">young king 孜孜不倦地学习着姿势</h4>
@@ -63,6 +63,11 @@
 
         $(".send").click(function() {
             var text = $(".txt").val();
+            //获取后首先应该立即在屏幕show上显示
+            var textObj = $("<p>" + text + "</p>");
+            $(".show").append(textObj);
+            moveObj(textObj);
+            //然后再添加到arr中
             arr.push(text);
             $(".txt").val('');
         });
@@ -82,7 +87,7 @@
 		var topMin = $('.show').offset().top;
         var topMax = topMin + $('.show').height();
         var _top = topMin;
-        // console.log(arr)
+        console.log($(".show").height())
         var moveObj = function(obj) {
             var _left = $('.show').width() - obj.width();  
             _top = _top + 50;
