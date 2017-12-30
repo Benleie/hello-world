@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>line-height</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+	span {
+		display: block;
+		background-color: wheat;
+		vertical-align: middle;
+	}
+    p {
+        width: 50%;
+        margin: 0 auto;
+        background-color: yellow;
+    }
+	
+    .test1 {
+    	width: 500px;
+        font-size: 20px;
+        line-height: 0;
+        border: 1px solid #cccccc;
+        background: lime;
+    }
+
+    .test2 {
+    	width: 500px;
+        font-size: 0;
+        line-height: 20px;
+        border: 1px solid #cccccc;
+        background: lime;
+    }
+    .test3 {
+    	height: 150px;
+    	font-size: 20px;
+    	line-height: 50px;
+    	border: 2px solid #000;
+    }
+    div {
+    	box-sizing: content-box;
+    }
+    .all {
+    	width: 1200px;
+    	background-color: lightgray;
+    }
+    </style>
+</head>
+
+<body>
+    <br>
+	<div class="all">
+		<div class="test1">测试1</div><br>
+		<div class="test2">测试2</div><br>
+	</div>
+    
+	<div class="test3">
+		<p>test3 height=100px,fontsize:20px;</p>
+		<p>line-height:100px</p>
+	</div>
+	
+	<br>
+	<div class="test3">
+		<span>test3 span测试 行1</span>
+		<!-- <span>test3 span测试 行2</span> -->
+		<span>test3 span测试 行3</span>
+	</div>
+</body>
+
+</html>
