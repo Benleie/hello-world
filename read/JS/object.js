@@ -48,6 +48,10 @@ function Cat(name,color){
 	this.name = name;
 	this.color = color;
 }
+Cat.prototype = new Animal()
+cl(Cat.prototype.constructor.toString())
+cl(Cat.prototype.__proto__  === Object.getPrototypeOf(Cat.prototype))
+cl(Object.getPrototypeOf(Cat.prototype))
 // Cat.prototype = new Animal()
 // cl(Cat.prototype.constructor)   //[Function: Animal]
 

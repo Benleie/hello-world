@@ -44,12 +44,12 @@
 
 	<div id="hello" class="border">
 		<p class="text-center">我只想说，<del>{{ deleteMessage }}</del> {{ message }}</p>
-
+		<p class="text-center">how should I use ':key' in vue.js?</p>
 		<div class="center-block"
-			 v-for="(poem, index) in anthology"
-			 :key="index">
-			
-			<p class="orange" data-toggle="modal" :data-target="dataTarget+anthology[index].title">
+			 v-for="(poem, index) in anthology">
+			 <!-- :key="index"> -->
+			<!--  anthology[index]-->
+			<p class="orange" data-toggle="modal" :data-target="dataTarget + poem.title">
 				<time>{{ poem.time  }}</time>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{poem.title}}
 			</p>
 			<div :id= "poem.title"  class="modal">
