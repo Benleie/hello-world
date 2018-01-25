@@ -25,7 +25,9 @@ For computed and methods,`:function` can be ignored.
 
 计算属性默认只有 getter,用来return 
 
-watch除了deep(用于对象)，还有个强大的handler.官方文档竟然只字未提？ 
+#### watch
++ { [key: string]: string | Function | Object | Array }
++ 用于对象时，deep  handler  immediate 
 
 
 + 对于显示时间，计算属性和方法都没有触发重新渲染？说好的方法与缓存无关呢？
@@ -46,7 +48,8 @@ v-bind对应:    v-on对应@
 
 
 
-
+#### filters
++ `{{ message | show }}`，如果show在methods中定义，会显示`Failed to resolve filter:`.
 
 
 

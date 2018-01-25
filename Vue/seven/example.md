@@ -8,14 +8,26 @@
 
 #### 其他
 + textarea value
-+ lodash debounce
++ lodash debounce	
 + oninput立即 onchange在元素失去焦点后才触发
 
 
+## github commits
+#### 知识点
++ | 按位或运算符 在模板中被用来给过滤器filters传参
++ 声明周期钩子：created  在实例创建完成后被立即调用. 在挂载之前
++ template:vue组件的一种写法
++ watch--`currentBranch: 'fetchData'`
+#### 其他
+- github API
 
+## 
+#### 知识点
+#### 其他
 
-
-
+## 
+#### 知识点
+#### 其他
 
 
 
