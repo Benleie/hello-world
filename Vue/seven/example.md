@@ -1,5 +1,26 @@
+
+
+
+## markdown editor
+#### 知识点
+- 模板：v-html
+- 事件处理与方法:@input
+
+#### 其他
++ textarea value
++ lodash debounce
++ oninput立即 onchange在元素失去焦点后才触发
+
+
+
+
+
+
+
+
+
 ## TodoMVC
-####知识点
+#### 知识点
 + 表单输入绑定：v-model
 + 计算属性和观察者：watch computed
 + 事件处理与方法：@dblclick @keyup.enter @keyup.esc
