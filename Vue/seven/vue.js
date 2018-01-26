@@ -593,7 +593,7 @@
         })
         .replace(/[-_]/g, '');
     };
-    debugger;
+    // debugger;
     warn = function(msg, vm) {
       var trace = vm ? generateComponentTrace(vm) : '';
 

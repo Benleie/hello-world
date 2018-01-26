@@ -52,5 +52,9 @@ v-bind对应:    v-on对应@
 + `{{ message | show }}`，如果show在methods中定义，会显示`Failed to resolve filter:`.
 
 
+## 组件
++ 提高代码复用
++ 对象作为props,可以进行类型检测。
+
 
 

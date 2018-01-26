@@ -16,14 +16,25 @@
 #### 知识点
 + | 按位或运算符 在模板中被用来给过滤器filters传参
 + 声明周期钩子：created  在实例创建完成后被立即调用. 在挂载之前
-+ template:vue组件的一种写法
++ template:肯模板与组件无关
 + watch--`currentBranch: 'fetchData'`
 #### 其他
 - github API
 
-## 
+
+
+
+## Grid Component
 #### 知识点
++ 组件:props
+
+
 #### 其他
++ filter-key是什么鬼？Note that HTML attributes are case-insensitive and camelCased props need to use their kebab-case equivalents when using in-DOM templates. You should probably use "filter-key" instead of "filterKey".
++ 将这个例子还原为不用组件的写法，发现不同之处仅在于props和其对应的自定义属性
+
+
+
 
 ## 
 #### 知识点
