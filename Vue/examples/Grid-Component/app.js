@@ -64,6 +64,12 @@ var demo = new Vue({
       { name: 'Bruce Lee', power: 9000 },
       { name: 'Jackie Chan', power: 7000 },
       { name: 'Jet Li', power: 8000 }
+    ],
+    gridData2: [
+      { name: 'song', power: Infinity },
+      { name: 'Feifei Lee', power: 9000 },
+      { name: 'Wang Zhengyang', power: 7000 },
+      { name: 'Jet Li', power: 8000 }
     ]
   }
 })
