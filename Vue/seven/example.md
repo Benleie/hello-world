@@ -32,6 +32,7 @@
 #### 其他
 + filter-key是什么鬼？Note that HTML attributes are case-insensitive and camelCased props need to use their kebab-case equivalents when using in-DOM templates. You should probably use "filter-key" instead of "filterKey".
 + 将这个例子还原为不用组件的写法，发现不同之处仅在于props和其对应的自定义属性
++ 组件中的data()函数是什么，不能访问props,却制造了两个全局变量
 
 
 

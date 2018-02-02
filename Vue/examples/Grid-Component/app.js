@@ -7,10 +7,12 @@ Vue.component('demo-grid', {
     filterKey: String
   },
   data: function () {
+    // console.log("filterKey" + filterKey);
     var sortOrders = {}
     this.columns.forEach(function (key) {
       sortOrders[key] = 1
     })
+
     return {
       sortKey: '',
       sortOrders: sortOrders
@@ -18,8 +20,9 @@ Vue.component('demo-grid', {
   },
   computed: {
     filteredData: function () {
-      console.log(this.filterKey)
+      // console.log(this.filterKey)
       var sortKey = this.sortKey
+      console.log("sortKey: --" + sortKey)
       var filterKey = this.filterKey && this.filterKey.toLowerCase()
       var order = this.sortOrders[sortKey] || 1
       var data = this.data
@@ -38,6 +41,9 @@ Vue.component('demo-grid', {
         })
       }
       return data
+    },
+    cl:function() {
+      console.log("undated!");
     }
   },
   filters: {
@@ -47,6 +53,7 @@ Vue.component('demo-grid', {
   },
   methods: {
     sortBy: function (key) {
+      console.log(key)
       this.sortKey = key
       this.sortOrders[key] = this.sortOrders[key] * -1
     }
@@ -63,12 +70,6 @@ var demo = new Vue({
       { name: 'Chuck Norris', power: Infinity },
       { name: 'Bruce Lee', power: 9000 },
       { name: 'Jackie Chan', power: 7000 },
-      { name: 'Jet Li', power: 8000 }
-    ],
-    gridData2: [
-      { name: 'song', power: Infinity },
-      { name: 'Feifei Lee', power: 9000 },
-      { name: 'Wang Zhengyang', power: 7000 },
       { name: 'Jet Li', power: 8000 }
     ]
   }
