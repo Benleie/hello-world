@@ -1,0 +1,56 @@
+/*
+=======================================================
+	文件名：cssforest.css
+	作者：CSSForest.org Ghost
+	说明：CSS森林首页样式文件。
+=======================================================
+*/
+
+*{margin:0;padding:0;}
+html,body{overflow:hidden;height:100%;}
+body{background:#544;
+/*fallback*/
+background:linear-gradient(#544,#565);}
+.copyright{display:none;}
+
+/* @group LOGO */
+.logo{width:25em;height:28em;margin:70px auto;-webkit-perspective:1000px;perspective:1000px;}
+.logo a{display:block;width:100%;height:100%;opacity:0.8;background:linear-gradient(rgba(255,255,255,0.01),rgba(255,255,255,0.03),rgba(255,255,255,0.01));-webkit-transform-style:preserve-3d;transform-style:preserve-3d;transition:all 0.5s;box-shadow:0 0 1px 1px rgba(255,255,255,0.04);}
+.logo:hover a{-webkit-transform:rotateX(80deg);-webkit-transform-origin:bottom;opacity:0.6;transform:rotateX(80deg);transform-origin:bottom;opacity:0.6;box-shadow:0 0 1px 1px rgba(255,255,255,0.1);}
+
+/*label style*/
+.logo a span{color:rgba(255,255,255,0);text-transform:uppercase;position:absolute;top:100%;left:0;width:100%;font:bold 14px/36px 'Trade Winds',Arial;text-align:center;-webkit-transform:rotateX(-89.99deg);-webkit-transform-origin:top;transform:rotateX(-89.99deg);transform-origin:top;z-index:1;text-shadow:0 0 8px rgba(239,233,191,0);box-shadow:0 0 1px 1px rgba(255,255,255,0.08);-webkit-animation:slogo-01 0.5s ease-in-out forwards;}
+.logo:hover a span{-webkit-animation:slogo-02 0.5s ease-in-out forwards;transform:rotateX(-89.99deg) translateZ(4px);-webkit-transform:rotateX(-89.99deg) translateZ(4px);}
+
+/*shadow*/
+.logo a:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(rgba(255,255,255,0.02),rgba(255,255,255,0.02),rgba(255,255,255,0.01)),url(ghostzhang.svg) no-repeat;background-size:cover;transition:all 0.5s;box-shadow:0 0 1px 1px rgba(255,255,255,0.03);opacity:1;-webkit-transform:rotateX(0) translateZ(-20px) scale(0.98);-webkit-transform-origin:bottom;transform:rotateX(0) translateZ(-20px) scale(0.98);transform-origin:bottom;}
+.logo:hover a:before{box-shadow:0 0 2px 2px rgba(255,255,255,0.05);-webkit-transform:rotateX(0) translateZ(-20px) scale(0.98);transform:rotateX(0) translateZ(-20px) scale(0.98);}
+
+/*shadow*/
+.logo a:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)),url(ghostzhang.svg) no-repeat;background-size:cover;box-shadow:0 0 100px 50px rgba(0,0,0,0.5);transition:all 0.5s;opacity:0.15;-webkit-transform:rotateX(95deg) translateZ(-10px) scale(0.75);-webkit-transform-origin:bottom;transform:rotateX(95deg) translateZ(-10px) scale(0.75);transform-origin:bottom;}
+.logo:hover a:after{opacity:0.5;box-shadow:0 0 6px 6px rgba(0,0,0,0.1);-webkit-transform:rotateX(0) translateZ(-60px) scale(0.96);transform:rotateX(0) translateZ(-60px) scale(0.96);}
+/* @end*/
+
+.bnh{clear:both;width:100%;margin:4% auto 0;font:76% tahoma,Microsoft YaHei,Arial,Helvetica;text-align:center;color:#FFFFFF;}
+.bnh a{color:#FFFFFF;}
+.bnh sup{display:none;}
+.bnh a:hover+sup{display:inline;color:#333333;position:absolute;margin:-1em 0 0 -2em;}
+
+#surprised:target span{font-size:50%;line-height:0;}
+#surprised:target:hover .re{-webkit-transition-duration:0.5s;border-bottom-color:#FFE033;}
+#surprised:target:hover .rc{-webkit-transition-duration:1s;border-bottom-color:#65A8EC;}
+#surprised:target:hover .rg{-webkit-transition-duration:1.5s;border-bottom-color:#FFE033;}
+#surprised:target:hover .rd{-webkit-transition-duration:0.5s;border-bottom-color:#3DAD4A;}
+#surprised:target:hover .rz{-webkit-transition-duration:1s;border-bottom-color:#D20000;}
+
+@-webkit-keyframes  slogo-01 {
+    from{color:rgba(255,255,255,0.6);text-shadow:0 0 8px rgba(239,233,191,0.6);}
+    to{color:rgba(255,255,255,0);text-shadow:0 0 8px rgba(239,233,191,0);}
+}
+@-webkit-keyframes  slogo-02 {
+    from{color:rgba(255,255,255,0);text-shadow:0 0 8px rgba(239,233,191,0);}
+    to{color:rgba(255,255,255,0.6);text-shadow:0 0 8px rgba(239,233,191,0.6);}
+}
+
+.font span{display:inline-block;}
+.G:before{  background: linear-gradient(#55584E,#55594E);}
