@@ -1,4 +1,4 @@
-let cl = console.log
+/*let cl = console.log
 function showTime() {
 	let now = new Date().toString()
 	let left = /2017\s/,
@@ -8,9 +8,9 @@ function showTime() {
 	right.exec(now)
 	cl(RegExp.leftContext)
 }
-showTime()
+showTime()*/
 
-let you = 'you cannon do it hard';
+let you = 'you cannot do it hard';
 String.prototype.startWith = function(prefix){
 	return this.slice(0,prefix.length) === prefix;
 }
@@ -20,11 +20,11 @@ String.prototype.endWith = function(suffix){
 }
 
 
-cl(you.endWith(' hard'))
+/*cl(you.endWith(' hard'))
 cl(you.startWith('you'))
 cl(you.lastIndexOf('hard'))
 cl('hahaha'.indexOf('ha',4))
-
+*/
 
 
 
@@ -38,3 +38,19 @@ cl('hahaha'.indexOf('ha',4))
 // cl(you.substr(0))
 
 
+
+/*const a = {
+	i:1,
+	toString:function (){
+		return a.i++;
+	}
+}*/
+
+
+/*const a = [1, 2, 3]
+a.join = a.shift*/
+if(a == 1 && a == 2 && a ==3)
+	console.log("It's all happening!")
+/*console.log(a.valueOf())
+console.log(a.toString())
+console.log(a.toString())*/
