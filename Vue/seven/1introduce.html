@@ -83,12 +83,13 @@
 		    message: 'Hello Vue!'
 		  },
 		  filter: {
-		  	show(some){
+		  	show: function(some){
 		  		console.log('---' + some);
 		  		return some + "  ---heiheihei";
 		  	}
 		  }
-		})
+		});
+
 		var app2 = new Vue({
 		  el: '#app-2',
 		  data: {

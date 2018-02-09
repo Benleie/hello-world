@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>count in English</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+		p {
+			/*float: left;*/
+			width: 200px;
+			height: 300px;
+			margin: 20px auto;
+			font-size: 30px;
+			line-height: 1.5;
+			/*border: 1px solid red;*/
+		}
+		.control {
+			width: 200px;
+			margin: 20px auto 0;
+		}
+		.control button {
+			background-color: wheat;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="control">
+		<button class="start">start</button>
+		<button class="finish">finish</button>
+		<button>toggle</button>
+	</div>
+	<p id="count">practice your English numbers</p>
+	
+	
+	<script type="text/javascript">
+		var btStart = document.getElementsByClassName('start')[0],
+			btFinish = document.getElementsByClassName('finish')[0],
+			setStart,
+			lock = 0
+
+		
+		function num(){
+			return Math.floor(Math.random() * 100)
+		}
+
+		
+
+		btStart.onclick = function(){
+			if(++lock !== 1) return;
+
+			document.getElementById('count').innerText = num();
+			setStart = setInterval(function(){
+				document.getElementById('count').innerText = num();
+			},1000)
+		}
+		btFinish.onclick = function(){
+			clearInterval(setStart);
+			document.getElementById('count').innerText = 'Have a break';
+			lock = 0;
+		}
+	</script>
+</body>
+</html>

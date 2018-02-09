@@ -1,13 +1,16 @@
 var _ = require('./183.js')
+var fs = require("fs")
 
 
 
-console.log(_.find([1, 2, 3, 4, 5, 6], function(num){ return num % 2 == 0; }))
-console.log([1, 2, 3, 4, 5, 6].find(num => num % 2 == 0))
 
-console.log(_.filter([1, 2, 3, 4, 5, 6], function(num){ return num % 2 == 0; }))
-console.log([1, 2, 3, 4, 5, 6].filter(num => num % 2 == 0))
+// console.log(exports)
+// console.log(module)
 console.log()
-console.log()
-console.log()
+
+// console.dir(global)
+fs.writeFile('C:\\Users\\我\\Desktop\\blog\\node\\global.txt', global, (err) => {
+  	if (err) throw err;
+  	console.log('It\'s saved!');
+});
 // console.log(_.each.toString())
