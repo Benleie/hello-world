@@ -74,7 +74,8 @@
 
 
 
-
+## lifecycle
++ `v-model="newTodoText"`when inputed but not entered, vue will updated?? Does it Virtual DOM re-render and patch?
 
 
 
