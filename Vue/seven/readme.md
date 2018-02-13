@@ -56,6 +56,7 @@ v-bind对应:    v-on对应@
 + 提高代码复用
 + 对象作为props,可以进行类型检测。
 + Component template should contain exactly one root element.
++ 父子组件:组件 A 在它的模板中使用了组件 B。
 
 #### 定义组件模板的方法： 
 字符串，ES6模板字面量，script/x-template,JavaScript内联模板,render函数，JSX,.vue组件

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>lifecycle</title>
+	<!-- <link href="https://v3.bootcss.com/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 	<style type="text/css">
 		div {
 			border: 3px solid gray;
@@ -15,17 +16,23 @@
 <body>
 	<div id="counter">
 		<p>data必须是函数，避免不同组件共享同一个对象。</p>
-	  <simple-counter></simple-counter>
-	  <simple-counter></simple-counter>
-	  <simple-counter></simple-counter>
+		<input v-model="words" placeholder="what do you want?">
+	  	<complex-counter></complex-counter>
 	</div>
 	<script type="text/x-template" id="progress">
 		<p>
 			<button v-on:click="counter += 1"> + </button>
 			<button v-on:click="counter -= 1"> - </button>
 			<span> {{ counter }} </span>
-			<progress :value="counter" max="8"></progress>
+			<progress :value="counter" :max="all"></progress>
 		</p>
+	</script>
+	<script type="text/x-template" id="father">
+		<div>
+			<simple-counter></simple-counter>
+	    	<simple-counter></simple-counter>
+	    	<simple-counter></simple-counter>
+		</div>
 		
 	</script>
 	<script type="text/javascript">
@@ -34,25 +41,27 @@
 		  template: '#progress',
 		  data: function () {
 			  return {
-			    counter: 0
+			    counter: 0,
+			    all: 8
 			  }
 			}
+		});
+		Vue.component("complex-counter",{
+			template: "#father",
 		})
 
 		new Vue({
 		  el: '#counter',
+		  data:{
+		  	words:''
+		  },
 		  created:function(){
 		  	console.log("created")
 		  },
 		  mounted:function(){
 		  	console.log("mounted")
-		  },
-		  beforeUpDate:function(){
-		  	console.log("beforeUpDate")
-		  },
-		  updated:function(){
-		  	console.log("updated")
 		  }
+		  
 		})
 	</script>
 
@@ -82,12 +91,6 @@
 
 	<script type="text/javascript">
 		Vue.component('todo-item', {
-		  /*template: '\
-		    <li>\
-		      {{ title }} \
-		      <button v-on:click="$emit(\'remove\')">X</button>\
-		    </li>\
-		  ',*/
 		  template:'#todo-temp',
 		  props: ['title']
 		})
@@ -115,6 +118,9 @@
 		      }
 		    ],
 		    nextTodoId: 7
+		  },
+		  created:function(){
+		  	console.log("created")
 		  },
 		  beforeUpdate:function(){
 		  	console.log('beforeUpdate')
