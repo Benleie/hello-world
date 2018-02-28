@@ -2,6 +2,9 @@
 title: bootstrap
 tags: UI
 ---
+
+
+
 + modal如何显示在屏幕正中心？
 
 ## 简书

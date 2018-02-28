@@ -39,7 +39,9 @@
 			    return Date.now()
 			  }
 		   },
-
+		   updated(){
+		   	console.log("undated!")
+		   },
 
 		  methods: {
 			  reversedMessage: function () {
@@ -50,6 +52,9 @@
 			  }
 			}
 		})
+
+		var dn = Date.now()
+		console.log(typeof dn)
 	</script>
 </body>
 </html>

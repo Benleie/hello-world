@@ -21,13 +21,13 @@
 		<p><span v-html='rawHTML'></span></p>
 	</div>
 
-<div id="example">
-  <p>Original message: "{{ message }}"</p>
-  <p>Computed reversed message: "{{ reversedMessage }}"</p>
-  <p>{{ time }} </p>
-  <p>{{now}} </p>
-
-</div>
+	<div id="example">
+	  <p>Original message: "{{ message }}"</p>
+	  <p>Computed reversed message: "{{ reversedMessage }}"</p>
+	  <p> dataTime: {{ time }} </p>
+	  <p> computedTime: {{ now }} </p>
+	  <p> methodsTime: {{ methodsTime() }} </p>
+	</div>
 
 	<div id="demo">{{ fullName }}
 		<p>first name: {{ firstName }}    and last name: {{ lastName }} </p>
@@ -66,6 +66,9 @@
 		    time: time66
 
 		  },
+			updated:function(){
+				console.log("updated")
+			},
 		  computed: {
 		    // 计算属性的 getter
 		    reversedMessage: function () {
@@ -76,6 +79,12 @@
 		    	// return Date.now();
 		    	return new Date();
 		    }
+		  },
+
+		  methods:{
+		  	methodsTime(){
+		  		return new Date()
+		  	}
 		  }
 		})
 
@@ -85,6 +94,12 @@
 			data: { 
 				message:"hello,vue",
 				rawHTML:"<span style='color:red'>This should be red</span>"
+			},
+			mounted:function(){
+				console.log("mounted")
+			},
+			updated:function(){
+				console.log("updated")
 			},
 			methods: {
 			  reversedMessage: function () {
