@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>click-toggle</title>
+	<link href="https://v3.bootcss.com/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<!-- <button id="change">It's me!</button> -->
+	<script>
+		var yes = true;
+		var text = yes ? "He" : "Me";
+		var btn = document.createElement("BUTTON");
+		var t = document.createTextNode(text);
+		btn.appendChild(t);
+		document.body.appendChild(btn);
+
+		btn.onclick = function(){
+			yes = !yes;
+			btn.innerText = yes ? "He" : "Me";;
+			var text = 'she';
+			var btn2 = document.createElement("BUTTON");
+			var t2 = document.createTextNode(text);
+			btn2.appendChild(t2);
+			// document.body.appendChild(btn2);
+		}
+
+
+
+		window.addEventListener("DOMContentLoaded", 
+			function(event) {
+		      console.log("window DOM fully loaded and parsed");
+		});
+		document.addEventListener("DOMContentLoaded", function(event) {
+		      console.log("DOM fully loaded and parsed");
+		});
+		document.addEventListener("load", function(event) {
+		      console.log("document loaded!");
+		});
+		window.addEventListener("load", function(event) {
+		    console.log("All resources finished loading!");
+		});
+		btn.addEventListener("load", function(event) {
+		      console.log("btn loaded!");
+		});
+
+		document.onreadystatechange = function(){
+			console.log("readystatechanged: " + document.readyState)
+		};
+
+
+
+		
+		
+		
+		
+		
+
+	</script>
+</body>
+</html>
