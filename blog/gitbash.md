@@ -59,4 +59,8 @@ git branch -d iss53  删除分支
 + fatal: The current branch hotfix has no upstream branch.
 To push the current branch and set the remote as upstream, use`git push --set-upstream origin hotfix`
 
+
+
+`git rm -r -f --cached **/node_modules/`
+
 commit阅读利器gitk
