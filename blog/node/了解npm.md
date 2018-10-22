@@ -1,0 +1,10 @@
+### node对npm的调用
+```bash
+npm prefix -g
+C:\Users\我\AppData\Roaming\npm
+```
+
+```bash
+$ cnpm prefix -g
+D:\dev\nodejs
+```

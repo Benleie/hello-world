@@ -53,7 +53,11 @@ The file will have its original line endings in your working directory.
 git checkout 
 git checkout -b 新建并转到
 git merge
+git branch -l 查看本地分支
+git branch -r 查看远程分支
+git branch -a 查看all分支
 git branch -d iss53  删除分支 	
+
  git branch -v  查看每个分支最后一次提交
  git branch --merged  查看哪些分支合并到master分支
 + fatal: The current branch hotfix has no upstream branch.

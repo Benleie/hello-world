@@ -14,10 +14,12 @@ function showTime() {
 	left.exec(now)
 	now = RegExp.rightContext;    //09:45:01 GMT+0800 (中国标准时间)
 	right.exec(now)
-	cl(RegExp.leftContext)    //09:45:01
+	console.log(RegExp.leftContext)    //09:45:01
 }
 showTime()
 ```
+更简单的写法：
+`console.log(new Date().toString().match(/\d+\:\d+\:\d+/)[0])`
 
 ### 统计字符串中数字出现的次数
 筛选出数字组成新的字符串即可

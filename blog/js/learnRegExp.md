@@ -7,11 +7,7 @@
 + character classes, quantifiers, grouping, lookaheads, and backreferences 捕获
 
 
-dog | bird | cat
-----|------|----
-foo | foo  | foo
-bar | bar  | bar
-baz | baz  | baz
+
 
 ## String 对象中的正则表达式方法
 ```javascript
