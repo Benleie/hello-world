@@ -4,7 +4,7 @@
 
 + flags   g i m
 
-+ character classes, quantifiers, grouping, lookaheads, and backreferences 捕获
++ character classes, quantifiers, grouping, lookaheads, and backreferences回溯引用 捕获
 
 
 
