@@ -76,4 +76,4 @@ you can specify which kinds of updates your app can accept in the package.json f
 
 
 ### 自问自答
-+ npm install --save-dev gulp del 为什么要加gulp
++ npm install --save-dev gulp del 为什么要加gulp  可以安装多个库 
