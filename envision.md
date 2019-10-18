@@ -2,6 +2,6 @@
 
 - [ ] 用Bootstrap做bootstrap文档的页面
 - [ ] olivia聊天
-- [x] vue项目build失败1
+- [x] 完善面试的登陆框
 
 
