@@ -6,10 +6,10 @@
 
 #### tic-tac-toe Vue版
 - [ ] 学习FCC ES6
-- [ ] 过一遍FCC REACT习题
+- [x] 过一遍FCC REACT习题
 - [ ] 过一遍VUE基础文档
 - [ ] 过一遍React基础文档
-- [ ] 整合文档中的Demo
+- [ ] 整合文档中的Demo stateless clock
 - [ ] 过一遍VUE官方demo
 - [ ]
 
