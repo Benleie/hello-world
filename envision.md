@@ -5,11 +5,25 @@
 - [ ] 整理居中布局相关
 
 - [ ] 无法访问github.io,DNS出问题
+- [ ] 找不到 element.eleme.io的服务器IP地址。
 
 - [ ] 服务器部署express，提供高像素图片
 - [ ] 完成mooc进度条课程
+- [ ] WebGL编程指南 find
+
+- https://github.com/PanJiaChen/vue-admin-template
+- [x] cnpm i 没反应	`npm config set registry http://registry.cnpmjs.org`
 
 
+## Login
+- [x] proxy
+- [x] 表单验证
+- [x] 路由跳转
+- [x] upload图片
+- [x] 自定义upload方法 http-request
+- [ ] http-request，添加is-success样式
+- [] 图片预览功能  FileReader
+- [] el-upload-list ElUploadList
 
 
 
