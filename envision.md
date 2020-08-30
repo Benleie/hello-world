@@ -22,8 +22,10 @@
 - [x] upload图片
 - [x] 自定义upload方法 http-request
 - [ ] http-request，添加is-success样式
-- [] 图片预览功能  FileReader
-- [] el-upload-list ElUploadList
+- [ ] 图片预览功能  FileReader
+- [ ] el-upload-list ElUploadList
+- [x] 后台基本router
+- [ ] Navbar组件获取用户登录信息
 
 
 
@@ -35,7 +37,6 @@
 - [ ] v2ex tab all跨域请求 (JSONP需要后端支持？难道只能走代理了？)
 - [ ] v2ex tab all渲染界面
 - [ ] mooc侧边栏icon,及视频播放相关icon
-- [ ] vue与node服务器连接
 
 
 ## 已完成
@@ -57,3 +58,8 @@
 - [x] proxyTable
 
 ## 解决bug
+
+## 想法
++ Vue，Express整合博客项目N-Blog
++ NeteaseCloudMusicApi项目
++ playtask小程序
