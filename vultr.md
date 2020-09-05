@@ -1,4 +1,8 @@
-45.76.164.111 	a8W,!DLy(ASotz_h
+45.76.164.111 	a8W,!DLy(ASotz_h   a8W,!DLy(ASotz_h
+
+vim /etc/ssh/sshd_config 
+service sshd restart
+
 ss://YWVzLTI1Ni1nY206NzI3MkA0NS43Ni4xNjQuMTExOjcyNzI=
 ## 参考文章
 + https://lccurious.github.io/2018/03/03/vlutr-ssr/

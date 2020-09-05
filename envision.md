@@ -2,10 +2,12 @@
 
 - [ ]
 - [ ] 重新使用vue完成todolist项目
+- [ ] 写一个计算器
 - [ ] 整理居中布局相关
 
 - [ ] 无法访问github.io,DNS出问题
 - [ ] 找不到element.eleme.io的服务器IP地址。
+- [ ] vultr密码错误 重置root密码
 
 - [ ] 服务器部署express，提供高像素图片
 - [ ] Vuex/examples:购物车添加功能
@@ -32,6 +34,7 @@
 ## 已完成
 ### 20/08
 - [x] v2ex tab all界面CSS布局
+- [x] proxyTable
 
 ### vue/react demo
 #### tic-tac-toe Vue版
@@ -45,7 +48,7 @@
 - [ ] tic-tac-toe Vue版
 
 
-- [x] proxyTable
+
 
 ## 解决bug
 
