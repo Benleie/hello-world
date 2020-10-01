@@ -10,3 +10,6 @@ i3dm(b3dm), CZML
 
 ##
 + /example 
+
+## three.js
++ OrbitControls 缩放的最大最小限度

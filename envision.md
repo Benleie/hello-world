@@ -1,6 +1,6 @@
 ## 最近代办
 
-- [ ]
+
 - [ ] 重新使用vue完成todolist项目
 - [ ] 写一个计算器
 - [ ] 整理居中布局相关
@@ -20,8 +20,8 @@
 - [ ] `git config user.name`只能查询和设置全局uer.name
 - [ ] 将vuex dev分支添加为learnVue的一个分支branch
 
+## blog
 	
-
 ## Not today
 - [ ] 用Bootstrap做bootstrap文档的页面
 - [ ] 完善面试的登陆框  element/ui
@@ -47,10 +47,15 @@
 - [ ] 过一遍Vue官方demo
 - [ ] tic-tac-toe Vue版
 
+## blog
+- [ ] 父子组件传值更新
+- [ ] 
+- [ ] 继续完善inlin-pxtorem(基于hello级别配置，webpack loader加载顺序)
+		+ vue-cli-service  Service.js
+- [ ] 登录界面 form元素 回车 默认事件
 
 
 
-## 解决bug
 
 ## 想法
 + Vue，Express整合博客项目N-Blog
