@@ -60,5 +60,5 @@
 ## 想法
 + Vue，Express整合博客项目N-Blog
 + NeteaseCloudMusicApi项目
-	- [x] 后端服务跑起来
+	- [x] 后端服务跑起来  整个服务只是提供了一个中间层，本质还是调用官方API
 + playtask小程序
