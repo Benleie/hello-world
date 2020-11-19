@@ -24,7 +24,7 @@
 	
 ## Not today
 - [ ] 用Bootstrap做bootstrap文档的页面
-- [ ] 完善面试的登陆框  element/ui
+- [ ] 完善面试的登陆框  element/ui	
 - [ ] olivia聊天
 - [ ] v2ex tab all跨域请求 (JSONP需要后端支持？难道只能走代理了？)
 - [ ] v2ex tab all渲染界面
