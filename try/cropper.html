@@ -69,6 +69,11 @@
         })
         console.log(canvasData)
         showArea.appendChild(canvasData)
+        let image = new Image();
+        // image.crossOrigin = 'anonymous'
+        // image.setAttribute('crossorigin', 'anonymous');
+        image.src = canvasData.toDataURL("image/png");
+        console.log(image)
       }
   </script>
 </body>
