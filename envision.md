@@ -1,6 +1,7 @@
 ## 最近代办
 
-
+- [ ] 完成mysql安装
+- [ ] node io 将comtribution-graph写入json
 - [ ] 重新使用vue完成todolist项目
 - [ ] 写一个计算器
 - [ ] 整理居中布局相关
@@ -62,3 +63,6 @@
 + NeteaseCloudMusicApi项目
 	- [x] 后端服务跑起来  整个服务只是提供了一个中间层，本质还是调用官方API
 + playtask小程序
+
+## finished
+
