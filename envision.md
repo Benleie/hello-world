@@ -1,7 +1,12 @@
 ## 最近代办
 
 - [ ] 完成mysql安装
-- [ ] node io 将comtribution-graph写入json
+- [ ] node fs 将comtribution-graph写入json
+- [ ] node http 用axios请求
+
+- [ ] 图解数据结构
+
+
 - [ ] 重新使用vue完成todolist项目
 - [ ] 写一个计算器
 - [ ] 整理居中布局相关
