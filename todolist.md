@@ -40,6 +40,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + DOMContentLoaded load
 + 正则表达式 类似于vscode搜索文件的一个匹配
 + date-fns 与 moment.js 使用类比
++ 创建本地branch开发完合并时总是 non-fast-forward
 
 
 
