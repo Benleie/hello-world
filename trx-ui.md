@@ -20,6 +20,7 @@
 ## form-designer
 + designer-panel [关于ExpressionChangedAfterItHasBeenCheckedError](https://segmentfault.com/a/1190000013972657)
 + grid 数据刷新存在bug
++ tags组件可以参考 tags-dialog
 
 
 ## angular
