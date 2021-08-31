@@ -1,4 +1,8 @@
 # todo
++ spanned-table组件编写
+	+ colspan应用探究
+	+ 如何获取远程数据，配置表格内容
+	
 ## common Components
 + 组件理解
 	+ 哪些组件需要appendto body
