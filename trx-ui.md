@@ -18,8 +18,8 @@
 	+ subscribe 类型定义 `onRequest: (params?: any) => Observable<TableData>`
 
 ## form-designer
++ designer-panel [关于ExpressionChangedAfterItHasBeenCheckedError](https://segmentfault.com/a/1190000013972657)
 + grid 数据刷新存在bug
-+ 有的组件引入t-form-parse,不使用@ViewChild引入#parse指令?
 
 
 ## angular
@@ -76,6 +76,7 @@ node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng build
 
 ## form-designer
 + 修改form-designer表格可选
++ 有的组件引入t-form-parse,不使用@ViewChild引入#parse指令? 
 
 
 ## angular
