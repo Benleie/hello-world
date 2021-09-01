@@ -1,5 +1,9 @@
+## commit提交规范
+日志信息以`<type>`开头，用于说明commit的类别，type使用下面标识。
++ angular
++ body: 健身
 
-https://eloquentjavascript.net/
++ https://eloquentjavascript.net/
 
 + 程序员业务能力的几个层次(2020.11)
   + 知道某个功能的大概要求，并能简陋地做出来 (勉强能干基本的活，实习生水平)
