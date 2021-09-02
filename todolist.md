@@ -31,6 +31,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + 正则表达式 类似于vscode搜索文件的一个匹配
 + 类似于setTimeOut 0 的写法`Promise.resolve(null).then( ()=> {this.parentComponent.text="update message"});`
 + angular @input set get  tags-element
++ ts extends 不可以重写属性，但可以重写方法 implements则都可以重写
 
 ### http
 + 浏览器 options preflight
@@ -51,6 +52,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + http获取本地json,设置筛选框form查找表格
 + 禅道bugs下拉框 带默认选项
 + 都城送 选两菜面板 是通过什么组件实现的 类似于下拉多选？
++ todomvc-vue
 
 ### 常用写法总结与复习
 + date-fns 与 moment.js 使用类比
@@ -67,9 +69,6 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
   + 印象深刻的技术难点
   + vant写三个页面
 
-
-
-+ todomvc-vue
 
 
 ## 网易云项目
