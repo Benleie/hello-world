@@ -45,6 +45,11 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + angular rxjs 防抖节流怎样使用
   + 使用next 绑定input的input事件，这种用法没错！错在诡异而奇怪的input组件
   + 一个简单input 怎么那么多触发 常见组件是怎样处理input的防抖节流的
+```js
+constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
+	super(cdr);
+}
+```
 
 
 ### 动动小手进行开发
