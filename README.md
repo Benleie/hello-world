@@ -2,6 +2,7 @@
 日志信息以`<type>`开头，用于说明commit的类别，type使用下面标识。
 + angular
 + body: 健身
++ sort: 不加新内容的单纯整理仓库
 
 + https://eloquentjavascript.net/
 
