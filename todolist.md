@@ -42,6 +42,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + angular 弹窗ngif 与vue对比
 + A constructor, method, accessor, or property was expected.
 + `<ng-content select="[search-header]"></ng-content>`
++ ng-template let  t-table中经常使用 [](https://stackoverflow.com/questions/42978082/what-is-let-in-angular-2-templates)
+	+  let-rowData let-columns let-rowIndex="rowIndex"
++ angular的双向绑定 需要对事件绑定加重复的xxxOnchange吗 control-attibute中的用法为何无法生效
 + angular rxjs 防抖节流怎样使用
   + 使用next 绑定input的input事件，这种用法没错！错在诡异而奇怪的input组件
   + 一个简单input 怎么那么多触发 常见组件是怎样处理input的防抖节流的
