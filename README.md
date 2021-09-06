@@ -2,10 +2,11 @@
 
 ## commit提交规范
 日志信息以`<type>`开头，用于说明commit的类别，type使用下面标识。
-+ angular
 + body: 健身
 + sort: 不加新内容的单纯整理仓库
 + hack: 关于技术成长的思考与阅读，方法论，略带鸡汤味
++ todo: 添加代办
++ done: 完成代办
 
 + https://eloquentjavascript.net/
 
