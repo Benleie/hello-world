@@ -4,7 +4,6 @@
 - [ ] node fs 将comtribution-graph写入json
 - [ ] node http 用axios请求
 
-- [ ] 图解数据结构
 
 
 - [ ] 重新使用vue完成todolist项目
@@ -18,7 +17,6 @@
 - [ ] 服务器部署express，提供高像素图片
 - [ ] Vuex/examples:购物车添加功能
 - [ ] 完成mooc进度条课程
-- [ ] WebGL编程指南 find
 
 - https://github.com/PanJiaChen/vue-admin-template
 - [x] cnpm i 没反应	`npm config set registry http://registry.cnpmjs.org`
