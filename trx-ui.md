@@ -1,3 +1,5 @@
+熟悉公司常用的组件和写法，罗列其中的技术点
+
 # todo
 + spanned-table组件编写
 	+ colspan应用探究
@@ -7,6 +9,7 @@
 + 组件理解
 	+ 哪些组件需要appendto body
 + search-page
+	+ `<ng-content select="[search-filters]"></ng-content>`
 + t-dialog
 	+ .ui-dialog-content height
 	+ appendto
