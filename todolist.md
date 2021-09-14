@@ -33,6 +33,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + angular @input set get  tags-element
 + ts extends 不可以重写属性，但可以重写方法 implements则都可以重写
 
+### CSS
++ `font-size: 14px; height: 14px;`
+
 ### http
 + 浏览器 options preflight
 + DOMContentLoaded load
