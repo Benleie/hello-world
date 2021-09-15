@@ -35,6 +35,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 ### CSS
 + `font-size: 14px; height: 14px;`
++ `background-color: rgba(255,255,255,.8);
+  // opacity: 0.8;` 容易被子元素继承
++ RGBA 颜色值指定为：rgba(red, green, blue, alpha)
 
 ### http
 + 浏览器 options preflight
