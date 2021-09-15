@@ -6,34 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .card-panel {
+    .container {
+      width: 1100px;
       display: flex;
-      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      background-color: pink;
+      padding:5px
+    }
+    .card-panel {
+      flex: 1;
+      /* width: 0; */
+      overflow: auto;
+    }
+    .card-panel > div {
+      overflow: auto;
+      display: flex;
+      align-items: center;
+      height: 180px;
+      background-color: #fff;
     }
     .card {
-      flex: 1;
-      overflow: auto;
-      /* width: 600px; */
-      height: 300px;
+      width: 300px;
+      flex-shrink:0;
+      height: 150px;
+      box-sizing: border-box;
+      border: 1px solid #ffb6b8;
+    }
+    .card + .card {
       margin-left: 14px;
-      border-style: solid;
-      border-width: 1px;
-      border-image-source: linear-gradient(0deg, 
-        #ffb6b8 0%, 
-        #ffd7d8 100%);
-      border-image-slice: 1;
     }
   </style>
 </head>
 <body>
-  <section class="card-panel">
-    <section class="card">one</section>
-    <section class="card">2</section>
-    <section class="card">3</section>
-    <section class="card">4</section>
-    <section class="card">5</section>
-    <section class="card">6</section>
-    <section class="card">7</section>
-  </section>
+  <div class="container">
+    <div style="width: 200px;height: 200px; background-color: orange; margin-right: 15px;"></div>
+    <section class="card-panel">
+      <div>
+        <section class="card">one</section>
+        <section class="card">2</section>
+        <section class="card">3</section>
+        <section class="card">4</section>
+        <section class="card">5</section>
+        <section class="card">6</section>
+        <section class="card">7</section>
+      </div>
+    </section>
+  </div>
+  
 </body>
 </html>
