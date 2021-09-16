@@ -45,6 +45,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 
 ### 三大框架
++ ElementRef 获取DOM元素
 + angular 弹窗ngif 与vue对比
 + A constructor, method, accessor, or property was expected.
 + `<ng-content select="[search-header]"></ng-content>`
