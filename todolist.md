@@ -34,10 +34,8 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + ts extends 不可以重写属性，但可以重写方法 implements则都可以重写
 
 ### CSS
-+ `font-size: 14px; height: 14px;`
-+ `background-color: rgba(255,255,255,.8);
-  // opacity: 0.8;` 容易被子元素继承
-+ RGBA 颜色值指定为：rgba(red, green, blue, alpha)
++ 加动画的 跳至最前
+
 
 ### http
 + 浏览器 options preflight
@@ -98,6 +96,7 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 
 ## done
+### css
 + angular 弹窗ngif 与vue对比
 + 通过rebase对commits进行合并
 + button -> fetch -> egg.js -> mysql
