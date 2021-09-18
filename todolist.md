@@ -32,9 +32,16 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + 类似于setTimeOut 0 的写法`Promise.resolve(null).then( ()=> {this.parentComponent.text="update message"});`
 + angular @input set get  tags-element
 + ts extends 不可以重写属性，但可以重写方法 implements则都可以重写
++ 动态给object添加属性 Index Signatures
++ interface LooseObject {
+    [key: string]: any
+}
++ `const a : Record<string, string> = {}`
+
 
 ### CSS
 + 加动画的 跳至最前
++ PC端通过使用vh和em 是不是可以一定程度上做到适配
 
 
 ### http
@@ -43,6 +50,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 
 ### 三大框架
++ Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays
 + ElementRef 获取DOM元素
 + angular 弹窗ngif 与vue对比
 + A constructor, method, accessor, or property was expected.
