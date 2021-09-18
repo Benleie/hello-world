@@ -42,6 +42,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ### CSS
 + 加动画的 跳至最前
 + PC端通过使用vh和em 是不是可以一定程度上做到适配
++ ::webkit-scrollbar
 
 
 ### http
@@ -50,6 +51,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 
 ### 三大框架
++ ngAfterContentChecked 多个生命周期不用继承也不会报错 implements
 + Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays
 + ElementRef 获取DOM元素
 + angular 弹窗ngif 与vue对比
