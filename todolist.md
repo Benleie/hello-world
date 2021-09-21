@@ -32,12 +32,19 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + 类似于setTimeOut 0 的写法`Promise.resolve(null).then( ()=> {this.parentComponent.text="update message"});`
 + angular @input set get  tags-element
 + ts extends 不可以重写属性，但可以重写方法 implements则都可以重写
++ 动态给object添加属性 Index Signatures
++ interface LooseObject {
+    [key: string]: any
+}
++ `const a : Record<string, string> = {}`
+
 
 ### CSS
-+ `font-size: 14px; height: 14px;`
-+ `background-color: rgba(255,255,255,.8);
-  // opacity: 0.8;` 容易被子元素继承
-+ RGBA 颜色值指定为：rgba(red, green, blue, alpha)
++ 无限滚动长列表  
++ 加动画的 跳至最前
++ PC端通过使用vh和em 是不是可以一定程度上做到适配
++ ::webkit-scrollbar
+
 
 ### http
 + 浏览器 options preflight
@@ -45,6 +52,8 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 
 ### 三大框架
++ ngAfterContentChecked 多个生命周期不用继承也不会报错 implements
++ Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays
 + ElementRef 获取DOM元素
 + angular 弹窗ngif 与vue对比
 + A constructor, method, accessor, or property was expected.
@@ -98,6 +107,7 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 
 ## done
+### css
 + angular 弹窗ngif 与vue对比
 + 通过rebase对commits进行合并
 + button -> fetch -> egg.js -> mysql
