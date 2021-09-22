@@ -3,6 +3,8 @@
 + sequelize ORM工具
 + Primitive
 + chrome://sync-internals/
++ 吉列锋隐系列
++ 分开请求比较好，开启了 keep-alive 可以节省一些资源吧
 
 ## form-designer
 + tags无法及时获取tags-config中的值
