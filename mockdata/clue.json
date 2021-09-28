@@ -1,0 +1,25 @@
+{
+	"cluePushList": {
+		"data": {
+			"list": [
+			{
+		        "filePath": "/hunt/org/ioc/export/file3.csv",
+		        "fileMd5": "82a59b0a216f3edfba39b6b4584acaab",
+		        "cisTaskId": "288",
+		        "completeDate": 1629083357000,
+		        "taskDesc": "nihao",
+		        "sqltext": "select * frm",
+		        "taskState": 1,
+		        "cisType": "IP",
+		        "fileSize": 34322,
+		        "localPath": "/home/yarn/nm/usercache/trx/appcache/application_1628829044596_0138/container_1628829044596_0138_01_000001/tmp/file3.csv",
+		        "taskName": "oktaskName",
+		        "hdfsPath": "/user/trx/http/2021-08-16/file3.csv",
+		        "taskId": "288",
+		        "startDate": 1628824155000,
+		        "status": 0
+		    }
+		]
+		}
+	}
+}
