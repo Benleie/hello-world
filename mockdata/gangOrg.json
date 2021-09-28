@@ -1,0 +1,33 @@
+{
+	"getApproxOrg": {
+		"data": {
+			"org": {
+				"orgName": "保加利亚3号",
+				"firstTame": "2019-09-22 14:33:33",
+				"lastLame": "2019-09-22 14:33:33",
+				"atackAims": "333",
+				"orgActivity": "中等活跃",
+				"iocCountList": []
+			},
+			"constrastOrgs": [
+				{
+					"orgName": "保加利亚3号",
+					"orgNo": "233323434",
+					"firstTame": "2019-09-22 14:33:33",
+					"lastLame": "2019-09-22 14:33:33",
+					"atackAims": "333",
+					"similarity": "22"
+				},
+				{
+					"orgName": "保加利亚3号",
+					"orgNo": "233323434",
+					"firstTame": "2019-09-22 14:33:33",
+					"lastLame": "2019-09-22 14:33:33",
+					"atackAims": "333",
+					"similarity": "22"
+				}
+			
+			]
+		}
+	}
+}
