@@ -83,6 +83,7 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 ### 常用写法总结与复习
 + date-fns 与 moment.js 使用类比
+	+ 入职时间 入职时长
 + http-client XHR fetch axios
 + egg-mysql  ali-rds
 + 一个.vue文件梳理vue官方教材的例子
