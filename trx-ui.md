@@ -8,12 +8,8 @@
 	+ org-container的offsetWidth为何获取不到
 	+ 参照knowledge-clue-tab页面，如何处理resize事件
 	+ 还原最早ioc-detail页面，负边距敞开页面的场景
-+ entity-drawer
-	+ http://10.7.192.120:22198/hunt/#/hunt/analysis-compare?orgId=202109231319563
-	+ 
-	+ renderShapes
-
-+ 攻击资源搜索 autocomplete svg定位
++ 团伙关系分裂图
++ 攻击资源搜索 autocomplete canvas中定位
 
 
 
