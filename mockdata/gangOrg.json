@@ -1,28 +1,45 @@
 {
 	"getApproxOrg": {
 		"data": {
-			"org": {
-				"orgName": "保加利亚3号",
-				"firstTame": "2019-09-22 14:33:33",
-				"lastLame": "2019-09-22 14:33:33",
-				"atackAims": "333",
-				"orgActivity": "中等活跃",
-				"iocCountList": []
-			},
-			"constrastOrgs": [
+			"orgs": [
 				{
 					"orgName": "保加利亚3号",
-					"orgNo": "233323434",
-					"firstTame": "2019-09-22 14:33:33",
-					"lastLame": "2019-09-22 14:33:33",
+					"firstTime": "2019-09-22 14:33:33",
+					"lastTime": "2019-09-22 14:33:33",
 					"atackAims": "333",
-					"similarity": "22"
+					"orgNo": "233323434",
+					"orgActivity": "中等活跃",
+					"iocCountList": [],
+					"orgId": 345
 				},
 				{
 					"orgName": "保加利亚3号",
 					"orgNo": "233323434",
-					"firstTame": "2019-09-22 14:33:33",
-					"lastLame": "2019-09-22 14:33:33",
+					"firstTime": "2019-09-22 14:33:33",
+					"lastTime": "2019-09-22 14:33:33",
+					"atackAims": "333",
+					"orgActivity": "中等活跃",
+					"iocCountList": [],
+					"orgId": 345
+				}
+			],
+			"confirmedOrgs": [
+				{
+					"orgName": "保加利亚33号",
+					"orgId": 345,
+					"orgNo": "233323434",
+					"firstTime": "2019-09-22 14:33:33",
+					"lastTime": "2019-09-22 14:33:33",
+					"atackAims": "333",
+					"similarity": "22",
+					"isDivide": 1
+				},
+				{
+					"orgName": "保加利亚34号",
+					"orgNo": "233323434",
+					"orgId": 345,
+					"firstTime": "2019-09-22 14:33:33",
+					"lastTime": "2019-09-22 14:33:33",
 					"atackAims": "333",
 					"similarity": "22"
 				}
