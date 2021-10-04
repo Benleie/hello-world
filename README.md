@@ -7,6 +7,7 @@
 + hack: 关于技术成长的思考与阅读，方法论，略带鸡汤味
 + todo: 添加代办
 + done: 完成代办
++ work: 整理工作内容
 
 + https://eloquentjavascript.net/
 

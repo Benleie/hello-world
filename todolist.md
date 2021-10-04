@@ -80,6 +80,7 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 + 禅道bugs下拉框 带默认选项
 + 都城送 选两菜面板 是通过什么组件实现的 类似于下拉多选？
 + todomvc-vue
++ 模仿t-checkbox，体会onChange事件触发
 
 ### 常用写法总结与复习
 + date-fns 与 moment.js 使用类比
