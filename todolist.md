@@ -43,6 +43,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ### browser
 + mouseenter focus事件的区别
 + https://zhuanlan.zhihu.com/p/26536815 event delegation
++ 浏览器 options preflight
++ DOMContentLoaded load
++ 感受close、右键、复制事件
 
 ### CSS
 + 无限滚动长列表  
@@ -53,9 +56,6 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + background box background-clip background-origin
 
 
-### http
-+ 浏览器 options preflight
-+ DOMContentLoaded load
 
 
 ### 三大框架
