@@ -9,8 +9,7 @@
 	+ 参照knowledge-clue-tab页面，如何处理resize事件
 	+ 还原最早ioc-detail页面，负边距敞开页面的场景
 + 团伙关系分裂图 getDivideDetail getDivideProfile
-	+ popover 事件
-+ 滚动条
++ marker 分裂图箭头会覆盖 图谱关系箭头颜色
 
 
 
