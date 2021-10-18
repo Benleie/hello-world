@@ -66,8 +66,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ### 三大框架
 + ngAfterContentChecked 多个生命周期不用继承也不会报错 implements
 + Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays
++ vue ref的作用是什么 我直接querySelector获取DOM不行吗
 + ElementRef 获取DOM元素
-+ angular 弹窗ngif 与vue对比
++ element dialog是怎样懒加载的？
 + A constructor, method, accessor, or property was expected.
 + `<ng-content select="[search-header]"></ng-content>`
 + ng-template let  t-table中经常使用 [](https://stackoverflow.com/questions/42978082/what-is-let-in-angular-2-templates)
