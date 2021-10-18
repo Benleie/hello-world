@@ -94,6 +94,9 @@ node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng build
 
 
 # done
+## d3
++ vue引入d3,实现zoom
+
 ## common Components
 + t-grid
 	+ 记录总条数 tableData total

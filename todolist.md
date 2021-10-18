@@ -23,7 +23,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ```
 
 
-## 08
+# sort out
++ npx -p npm@6 i
+
 ### git
 + 通过rebase对commits进行合并
 + 创建本地branch开发完合并时总是 non-fast-forward
@@ -99,7 +101,10 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 
 
-
++ computed integrity doesn't match our records
+	+ yarn cache clean
+	+ yarn --update-checksums
+	+ yarn install
 
 
 + 梳理zhikun工作用到的技术
