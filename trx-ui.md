@@ -6,6 +6,7 @@
 	+ 如何获取远程数据，配置表格内容
 + 对比组件知识点
 	+ org-container的offsetWidth为何获取不到
+		+ offsetWidth clientWidth
 	+ 参照knowledge-clue-tab页面，如何处理resize事件
 	+ 还原最早ioc-detail页面，负边距敞开页面的场景
 + 团伙关系分裂图 getDivideDetail getDivideProfile
