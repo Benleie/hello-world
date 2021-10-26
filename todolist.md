@@ -96,6 +96,7 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 + todomvc-vue
 + 模仿t-checkbox，体会onChange事件触发
 + json-server怎么post数据
++ https://github.com/snayan/canvas-demo
 
 #### css动画
 + 页面跳至最前 又跳回来 参考zxx requestAnamation的文章
