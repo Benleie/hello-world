@@ -6,11 +6,13 @@
 	+ 如何获取远程数据，配置表格内容
 + 对比组件知识点
 	+ org-container的offsetWidth为何获取不到
+		+ offsetWidth clientWidth
 	+ 参照knowledge-clue-tab页面，如何处理resize事件
 	+ 还原最早ioc-detail页面，负边距敞开页面的场景
 + 团伙关系分裂图 getDivideDetail getDivideProfile
-	+ popover 事件
-+ 滚动条
++ marker 分裂图箭头会覆盖 图谱关系箭头颜色
+
+
 
 
 
@@ -37,6 +39,7 @@
 + t-dialog
 	+ .ui-dialog-content height
 	+ appendto
++ t-dropdown 没有placeholder,默认显示第一个选项，但是又没有选中？
 
 + t-grid
 	+ 怎样处理表头field format
@@ -95,6 +98,9 @@ node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng build
 
 
 # done
+## d3
++ vue引入d3,实现zoom
+
 ## common Components
 + t-grid
 	+ 记录总条数 tableData total

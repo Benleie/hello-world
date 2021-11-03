@@ -23,7 +23,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ```
 
 
-## 08
+# sort out
++ npx -p npm@6 i
+
 ### git
 + 通过rebase对commits进行合并
 + 创建本地branch开发完合并时总是 non-fast-forward
@@ -39,6 +41,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
     [key: string]: any
 }
 + `const a : Record<string, string> = {}`
++ https://github.com/aershov24/typescript-interview-questions
 
 ### browser
 + mouseenter focus事件的区别
@@ -50,21 +53,28 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 ### CSS
 + 无限滚动长列表  
-+ 加动画的 跳至最前
++ 结合autocomplete，分析transition的触发场景
 + 请教一个问题：如果去后台请求一个服务并进行前端处理，需要耗费较长的时间。如何实现在等待处理的这段时间内加一个等待动画，而又不影响到前端的处理呢？
 + PC端通过使用vh和em 是不是可以一定程度上做到适配
 + ::webkit-scrollbar
 + background box background-clip background-origin
 + css变量 env()函数 var() -- 
++ svg viewbox
+
 
 
 
 
 ### 三大框架
++ https://github.com/zuiidea/antd-admin
++ https://vue3js.cn/global/nextTick.html
++ ngAfterContentChecked为啥会在resize后触发
 + ngAfterContentChecked 多个生命周期不用继承也不会报错 implements
 + Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays
++ vue ref的作用是什么 我直接querySelector获取DOM不行吗
 + ElementRef 获取DOM元素
-+ angular 弹窗ngif 与vue对比
++ element dialog是怎样懒加载的？
++ ngAfterContentChecked ngAfterViewChecked有何区别
 + A constructor, method, accessor, or property was expected.
 + `<ng-content select="[search-header]"></ng-content>`
 + ng-template let  t-table中经常使用 [](https://stackoverflow.com/questions/42978082/what-is-let-in-angular-2-templates)
@@ -87,6 +97,13 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 + 都城送 选两菜面板 是通过什么组件实现的 类似于下拉多选？
 + todomvc-vue
 + 模仿t-checkbox，体会onChange事件触发
++ json-server怎么post数据
++ https://github.com/snayan/canvas-demo
+
+#### css动画
++ 页面跳至最前 又跳回来 参考zxx requestAnamation的文章
++ close-icon hover 旋转
+
 
 ### 常用写法总结与复习
 + date-fns 与 moment.js 使用类比
@@ -97,7 +114,10 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 
 
-
++ computed integrity doesn't match our records
+	+ yarn cache clean
+	+ yarn --update-checksums
+	+ yarn install
 
 
 + 梳理zhikun工作用到的技术
