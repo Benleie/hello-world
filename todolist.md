@@ -46,6 +46,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + 浏览器 options preflight
 + DOMContentLoaded load
 + 感受close、右键、复制事件
++ 
 
 ### CSS
 + 无限滚动长列表  
@@ -54,6 +55,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + PC端通过使用vh和em 是不是可以一定程度上做到适配
 + ::webkit-scrollbar
 + background box background-clip background-origin
++ css变量 env()函数 var() -- 
 
 
 
