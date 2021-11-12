@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-25 -30 50 60" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<g name="s-n-g" cursor="pointer" >
+	<polygon name="outer-poly" points="15.00,-25.98 30.00,0.00 15.00,25.98 -15.00,25.98 -30.00,0.00 -15.00,-25.98" style="fill: rgb(255, 255, 255); stroke: rgb(139, 230, 228); stroke-width: 2;"></polygon>
+	<polygon name="inner-poly" points="0.00,-23.38 20.25,-11.69 20.25,11.69 0.00,23.38 -20.25,11.69 -20.25,-11.69" style="fill:rgb(139, 230, 228); stroke-width: 0;"></polygon>
+	<path d="M15.00,-25.98 L15.00,25.98 -30.00,0.00 Z M30.00,0.00 L-15.00,25.98 -15.00,-25.98 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0; stroke: rgb(139, 230, 228); stroke-width: 1;"></path>
+	<image name="e-i" x="0" y="0" width="19.5" xlink:href="./../03-IP.svg" alt="10.63.79.115" height="19.5" transform="translate(-9.75,-9.75)"></image>
+</g>
+</svg>

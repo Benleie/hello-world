@@ -138,6 +138,8 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 
 ## done
+### svg
++ 
 ### css
 + angular 弹窗ngif 与vue对比
 + 通过rebase对commits进行合并
