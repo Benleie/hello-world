@@ -60,6 +60,9 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + background box background-clip background-origin
 + css变量 env()函数 var() -- 
 + svg viewbox
++ 背景颜色
+	+ CSS中无法直接给背景图片加opacity属性 通过伪元素
+	+ backdrop-filter filter
 
 
 
