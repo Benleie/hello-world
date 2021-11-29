@@ -1,3 +1,6 @@
+HostListener('window:resize', ['$event'])
+吸顶滚动 getBoundingClientRect  https://blog.51cto.com/u_15077552/2596500
+
 ## todolist
 标签组件功能： 1.通过远程或本地等数据来源获取标签（可能需要分组）2.可单选可多选；
 暂不考虑编辑和增删标签,用法类似于tags-dialog组件，作为表单的选择性组件
