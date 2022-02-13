@@ -3,7 +3,6 @@
 + sequelize ORM工具
 + Primitive
 + chrome://sync-internals/
-+ 吉列锋隐系列
 + 分开请求比较好，开启了 keep-alive 可以节省一些资源吧
 
 ## form-designer
@@ -87,7 +86,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + angular rxjs 防抖节流怎样使用
   + 使用next 绑定input的input事件，这种用法没错！错在诡异而奇怪的input组件
   + 一个简单input 怎么那么多触发 常见组件是怎样处理input的防抖节流的
-```js
+```
 constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 	super(cdr);
 }
@@ -138,7 +137,13 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 
 ## Node server
-+ N-blog项目 启动与整理
++ N-blog项目 启动与整理 
+### express实现常见功能
++ 连接mysql，提供几个接口
++ token授权登录
++ http2
++ websocket
++ server-sent events
 
 
 ## done
