@@ -146,15 +146,3 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 + http2
 + websocket
 + server-sent events
-
-
-## done
-### svg
-+ 
-### css
-+ angular 弹窗ngif 与vue对比
-+ 通过rebase对commits进行合并
-+ button -> fetch -> egg.js -> mysql
-+ 自己电脑连接公司VPN和gitlab
-+ mock data
-	+ table: id name duration chinese math english memo
