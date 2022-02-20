@@ -25,6 +25,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 # sort out
 + npx -p npm@6 i
 
+## todoList
 ### git
 + 通过rebase对commits进行合并
 + 创建本地branch开发完合并时总是 non-fast-forward
@@ -94,6 +95,7 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 
 ### 动动小手进行开发
++ element-plus安装 4
 + 结合vue-elelment-admin，仿写一套ngx-admin的layout布局
 + http获取本地json,设置筛选框form查找表格
 + 禅道bugs下拉框 带默认选项
