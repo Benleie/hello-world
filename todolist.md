@@ -65,6 +65,11 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 	+ CSS中无法直接给背景图片加opacity属性 通过伪元素
 	+ backdrop-filter filter
 
+## 组件库
++ 常见组件是怎样处理input的防抖节流的
++ element dialog是怎样懒加载的？
++ checkbox圆形按钮怎样实现
+
 
 
 
@@ -77,7 +82,6 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + Cannot find a differ supporting object '[object Object]' of type 'object'. NgFor only supports binding to Iterables such as Arrays
 + vue ref的作用是什么 我直接querySelector获取DOM不行吗
 + ElementRef 获取DOM元素
-+ element dialog是怎样懒加载的？
 + ngAfterContentChecked ngAfterViewChecked有何区别
 + A constructor, method, accessor, or property was expected.
 + `<ng-content select="[search-header]"></ng-content>`
