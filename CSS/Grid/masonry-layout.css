@@ -1,0 +1,25 @@
+/* 实现瀑布流 https://juejin.cn/post/6844904004720263176  */
+/* TODO: 未完成 */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 20px;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+.wrapper > div {
+  background-color: orange;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.wrapper .four {
+  height: 200px;
+  background-color: red;
+}
+.seven {
+  height: 300px;
+}
+
