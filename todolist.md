@@ -144,6 +144,7 @@ constructor(cdr: ChangeDetectorRef, private http: HttpClient) {
 
 ## Node server
 + N-blog项目 启动与整理 
++ 改造vue-cli,使用mockjs搭建mock server https://juejin.cn/post/6844903590046203918
 ### express实现常见功能
 + 连接mysql，提供几个接口
 + token授权登录
