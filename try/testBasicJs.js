@@ -1,4 +1,5 @@
-if (1) {
-  const index = 2
+function add(...theArgs) {
+  console.log(theArgs)
 }
-console.log(index)
+console.log(add(1,2,3))
+console.log(add(1,2,3,4,5))
