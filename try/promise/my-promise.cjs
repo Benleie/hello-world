@@ -1,3 +1,5 @@
+// https://zhuanlan.zhihu.com/p/183801144 手写一个 Promise
+
 const PENDING = 'PENDING';
 const FULFILLED = 'FULFILLED';
 const REJECTED = 'REJECTED';
