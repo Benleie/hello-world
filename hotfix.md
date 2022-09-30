@@ -1,5 +1,5 @@
 
-## 之前工作中遇到的疑问
+## question at work
 + keep-alive缓存功能  activated() {}
 + window.innerHeight
 + document.body.clientHeight
