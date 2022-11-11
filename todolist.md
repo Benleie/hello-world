@@ -1,29 +1,11 @@
 
-## 公司电脑
-+ sequelize ORM工具
-+ Primitive
-+ chrome://sync-internals/
-+ 分开请求比较好，开启了 keep-alive 可以节省一些资源吧
-
-## form-designer
-+ tags无法及时获取tags-config中的值
-+ multicheckbox选中值之后不能反应在json中？
-
-+ formDesigner中怎样修改form.template值
-+ t-dropdown show-clearable 点击后无数报错
-
 ### 设计器参考
 + https://github.com/JakHuang/form-generator
 + https://github.com/GavinZhuLei/vue-form-making
 
-```
-npm list @angular/core
-npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codemirror@1.1.3
-```
 
 
 # sort out
-+ npx -p npm@6 i
 
 ## todoList
 ### git
