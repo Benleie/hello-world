@@ -26,3 +26,28 @@ github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个�
 
 保留的多是数据结构和canvas的一些项目，最近要搞的。
 当然真爱是不会取赞的。
+
+## Youtube
+### 知名节目
++ [TED](https://www.youtube.com/@TED)
++ [NBA](https://www.youtube.com/@NBA)
++ []()
++ []()
+### 人际关系
++ [美国重庆老美女真实生活分享
+](https://www.youtube.com/@user-zn7qb3jo1p/videos)
++ [Matthew Hussey](https://www.youtube.com/@thematthewhussey) 为女性提供情感建议
++ [Jason Silver](https://www.youtube.com/@jasonsilveryt) 为女性提供情感建议
++ []()
++ []()
+
+### 新闻
++ [美国之音中文网](https://www.youtube.com/@voachinese)
++ [真觀點](https://www.youtube.com/@zhenguandian) 漂亮主持人
++ []()
++ []()
+
+### 教程
++ [mmmEnglish](https://www.youtube.com/@mmmEnglish_Emma) 澳洲女老师
+
+
