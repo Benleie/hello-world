@@ -70,4 +70,6 @@ github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个�
 + [Haley Kim](https://www.youtube.com/@HaleyKimaking/videos) 百万粉的护肤女博主
 + [TopTennisTrainingNet](https://www.youtube.com/@TopTennisTrainingNet)
 + [Realmenrealstyle](https://www.youtube.com/@Realmenrealstyle/videos) 教你做个纯爷们
++ [DrSusieGronski](https://www.youtube.com/@DrSusieGronski/videos) 专注男性表现的女博士
++ []()
 + []()
