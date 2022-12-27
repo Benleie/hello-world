@@ -9,4 +9,9 @@
 
 
 
+## 技术栈
++ 前端组件库方面。关注Element-Plus, Ant-Design, Material-UI, Vant, Swiper等主流开源组件库
++ 前端建构方面。关注rollup,vite,webpack,create-react-app等工具的开发特性
++ HTTP。
+  + Axios的每个版本特性要有了解
 
