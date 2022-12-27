@@ -36,6 +36,8 @@ github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个�
 + [InsideEdition](https://www.youtube.com/@InsideEdition/videos) 专门报道一些好玩的小事儿
 + [NBAonTNT](https://www.youtube.com/@NBAonTNT/videos) 大嘴巴克利和他的TNT天团
 + [Key & Peele](https://www.youtube.com/@KeyAndPeele/videos) 双人脱口秀
+
+
 ### 人际关系
 + [美国重庆老美女真实生活分享](https://www.youtube.com/@user-zn7qb3jo1p/videos)
 + [口才不错的黑女](https://www.youtube.com/@themusingsofacrouton1098/videos)
@@ -68,6 +70,7 @@ github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个�
 + [臀神bret](https://www.youtube.com/@bretcontreras1)
 + [JeffNippard](https://www.youtube.com/@JeffNippard)
 + [Haley Kim](https://www.youtube.com/@HaleyKimaking/videos) 百万粉的护肤女博主
++ [Jenn Im](https://www.youtube.com/@clothesencounters/videos) Korean girls daily skincare
 + [TopTennisTrainingNet](https://www.youtube.com/@TopTennisTrainingNet)
 + [Realmenrealstyle](https://www.youtube.com/@Realmenrealstyle/videos) 教你做个纯爷们
 + [DrSusieGronski](https://www.youtube.com/@DrSusieGronski/videos) 专注男性表现的女博士
