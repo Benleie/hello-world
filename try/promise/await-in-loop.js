@@ -9,7 +9,8 @@
 //   resolve('p2 resolved')
 // })
 
-const randomReturn = () => {
+const randomReturn = (item) => {
+  console.log(item)
   return new Promise((resolve, reject) => {
     // 1, 1.5, 2, ..., 4.5, 5
     const time = Math.floor(Math.random(0, 1)*8) / 2 + 1
@@ -19,8 +20,8 @@ const randomReturn = () => {
   })
 }
 const res = [];
-[1, 2, 3].forEach(async() => {
-  const number = await randomReturn()
+[1, 2, 3].forEach(async(item) => {
+  const number = await randomReturn(item)
   res.push(number)
   console.log(res)
 })
