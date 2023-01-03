@@ -1,12 +1,14 @@
 个人学习编程记录与规划
 
 ## commit提交规范
-日志信息以`<type>`开头，用于说明commit的类别，type使用下面标识。
+日志信息为`<type>(<scope>): <subject>`，用于说明commit的类别，type使用下面标识。
++ 包含angular规范的feat, fix, refactor, docs, perf等
 + sort: 不加新内容的单纯整理仓库
 + hack: 关于技术成长的思考与阅读，方法论，略带鸡汤味
 + todo: 添加代办
 + done: 完成代办
-+ work: 整理工作内容
+
+scope包含一下内容
 + css: 练习CSS
 + sql： sql数据库相关
 
