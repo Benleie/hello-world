@@ -8,6 +8,7 @@
 + done: 完成代办
 + work: 整理工作内容
 + css: 练习CSS
++ sql： sql数据库相关
 
 + https://eloquentjavascript.net/
 
