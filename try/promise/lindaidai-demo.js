@@ -1,72 +1,94 @@
 // [45道Promise面试题](https://juejin.cn/post/6844904077537574919)
 
+//#region Promise的几道基础题
+const promiseBasic1 = () => {
+  const promise1 = new Promise((resolve, reject) => {
+    console.log('promise1')
+  })
+  console.log('1', promise1); // 1 Promise { <pending> } 
+}
+
+const promiseBasic2 = () => {
+  const promise = new Promise((resolve, reject) => {
+    console.log(1);
+    resolve(3)
+    console.log(2);
+  });
+  promise.then((value) => {
+    console.log(value)
+  });
+  console.log(4);
+}
+// promiseBasic2() // 1 -> 2 -> 4 -> 3
 
 
-const promise1 = new Promise((resolve, reject) => {
-  console.log('promise1')
-})
-console.log('1', promise1); // 1 Promise { <pending> } 
-/* 
-
-
-
-const promise = new Promise((resolve, reject) => {
-  console.log(1);
-  resolve('success')
-  console.log(2);
-});
-promise.then(() => {
-  console.log(3);
-});
-console.log(4);
-// 1 -> 2 -> 4 -> 3
-
-
-const promise = new Promise((resolve, reject) => {
-  console.log(1);
-  console.log(2);
-});
-promise.then(() => {
-  console.log(3);
-});
-console.log(4);
-// 1 - 2 - 4
-
-
-
-const promise1 = new Promise((resolve, reject) => {
-  console.log('promise1')
-  resolve('resolve1')
-})
-const promise2 = promise1.then(res => {
-  console.log(res)
-})
-console.log('1', promise1);
-console.log('2', promise2);
+const promiseBasic3 = () => {
+  const promise = new Promise((resolve, reject) => {
+    console.log(1);
+    console.log(2);
+  });
+  promise.then(() => {
+    console.log(3);
+  });
+  console.log(4);
+  // 1 - 2 - 4
+}
+const promiseBasic4 = () => {
+  const promise1 = new Promise((resolve, reject) => {
+    console.log('promise1')
+    resolve('resolve1')
+  })
+  const promise2 = promise1.then(res => {
+    console.log(res)
+  })
+  console.log('1', promise1);
+  console.log('2', promise2);
+  
+}
+// promiseBasic4()
 // 1 Promise { 'resolve1' }
 // 2 Promise { <pending> }
 
+const promiseBasic5 = () => {
+  const fn = () => (new Promise((resolve, reject) => {
+    console.log(1);
+    resolve('success')
+  }))
+  fn().then(res => {
+    console.log(res)
+  })
+  console.log('start')
+}
+// promiseBasic5()
 
-const fn = () => (new Promise((resolve, reject) => {
-  console.log(1);
-  resolve('success')
-}))
-fn().then(res => {
-  console.log(res)
-})
-console.log('start')
+const promiseBasic6 = () => {
+}
+//#endregion
 
 
-console.log('start')
-setTimeout(() => {
-  console.log('time')
-})
-Promise.resolve().then(() => {
-  console.log('resolve')
-})
-console.log('end')
-// time is showed when next macroTask is run
-// resolve --> time  
+//#region Promise结合setTimeout
+const promiseStt1 = () => {
+  console.log('start')
+  setTimeout(() => {
+    console.log('time')
+  })
+  Promise.resolve().then(() => {
+    console.log('resolve')
+  })
+  console.log('end')
+  // time is showed when next macroTask is run
+  // resolve --> time  
+}
+
+
+const promiseStt2 = () => {
+
+}
+//#endregion
+
+/*
+
+
 
 
 const promise = new Promise((resolve, reject) => {
