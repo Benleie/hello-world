@@ -9,8 +9,11 @@
 + done: 完成代办
 
 scope包含一下内容
++ admin 前后端CURD框架整理
 + css: 练习CSS
 + sql： sql数据库相关
++ react
++ vue
 
 + https://eloquentjavascript.net/
 
