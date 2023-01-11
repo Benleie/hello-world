@@ -18,6 +18,7 @@ const testForEach = () => {
     console.log(res)
     console.timeEnd(item)
   })
+  console.log(res)
 }
 // testForEach()
 
@@ -28,5 +29,6 @@ const testForLoop = async() => {
     res.push(number)
     console.timeEnd(index)
   }
+  console.log(res)
 }
 testForLoop()
