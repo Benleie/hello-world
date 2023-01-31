@@ -36,6 +36,7 @@ github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个�
 + [InsideEdition](https://www.youtube.com/@InsideEdition/videos) 专门报道一些好玩的小事儿
 + [NBAonTNT](https://www.youtube.com/@NBAonTNT/videos) 大嘴巴克利和他的TNT天团
 + [Key & Peele](https://www.youtube.com/@KeyAndPeele/videos) 双人脱口秀
++ [JerrySpringerTV](https://www.youtube.com/@JerrySpringerTV/videos) 色色脱口秀
 
 
 ### 人际关系
