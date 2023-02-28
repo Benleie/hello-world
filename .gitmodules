@@ -1,4 +1,5 @@
 # 使用git submodule管理前端项目，在提交记录中与后端分离
+# 0228
 # submodule使用参考： https://zhuanlan.zhihu.com/p/87053283
 [submodule "blog"]
 	path = blog
