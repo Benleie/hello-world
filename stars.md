@@ -57,6 +57,10 @@ github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个�
 ### 好玩
 + [nba 视频剪辑](https://www.youtube.com/@KingSwish./videos)
 
+### 美女
++ [thecougarexperience](https://www.youtube.com/@thecougarexperience)
++ [TheoriginalAnnabel](https://www.youtube.com/@TheoriginalAnnabel/videos)
+
 ### 新闻
 + [美国之音中文网](https://www.youtube.com/@voachinese)
 + [真觀點](https://www.youtube.com/@zhenguandian) 漂亮主持人
