@@ -14,6 +14,7 @@ scope包含一下内容
 + sql： sql数据库相关
 + react
 + vue
++ Node
 
 + https://eloquentjavascript.net/
 
