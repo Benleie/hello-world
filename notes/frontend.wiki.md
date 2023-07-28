@@ -3,6 +3,7 @@
 + nodemon
   + 适用于python `nodemon --exec "python -v" ./app.py`
 + http-server
++ nrm 管理npm registry
 
 ## Server
 ### Express
