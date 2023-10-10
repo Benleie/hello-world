@@ -18,9 +18,9 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 + https://github.com/element-plus/element-plus
 
 ## SpringBoot admin
-https://gitee.com/beijing_hongye_huicheng/lilishop 北京某公司的开源商场项目
-https://gitee.com/y_project/RuoYi 若依
-https://github.com/Yin-Hongwei/music-website 全栈项目 有初始化sql
++ https://gitee.com/beijing_hongye_huicheng/lilishop 北京某公司的开源商场项目
++ https://gitee.com/y_project/RuoYi 若依
++ https://github.com/Yin-Hongwei/music-website 全栈项目 有初始化sql
 
 ## nest.js admin
-https://github.com/buqiyuan/nest-admin EP大佬的全栈项目
++ https://github.com/buqiyuan/nest-admin EP大佬的全栈项目
