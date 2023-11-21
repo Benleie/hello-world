@@ -26,3 +26,4 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 
 ## nest.js admin
 + https://github.com/buqiyuan/nest-admin EP大佬的全栈项目
++ https://github.com/AmruthPillai/Reactive-Resume 前端在线简历制作的全栈项目
