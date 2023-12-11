@@ -17,6 +17,7 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 + MUI https://github.com/mui/material-ui
 + vue Material Design https://github.com/vuetifyjs/vuetify
 + angular官方维护的组件库  https://github.com/angular/components
++ vant: vue移动端框架；vue2版本仍在维护中 https://github.com/youzan/vant
 
 ## SpringBoot admin
 + https://gitee.com/y_project/RuoYi 若依
@@ -25,3 +26,4 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 
 ## nest.js admin
 + https://github.com/buqiyuan/nest-admin EP大佬的全栈项目
++ https://github.com/AmruthPillai/Reactive-Resume 前端在线简历制作的全栈项目
