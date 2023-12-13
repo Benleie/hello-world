@@ -1,0 +1,445 @@
+{
+    domain: null,
+    _events: {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    base_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\',
+    public_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\public\\',
+    source_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\source\\',
+    plugin_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\node_modules\\',
+    script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scripts\\',
+    scaffold_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scaffolds\\',
+    theme_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\',
+    theme_script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\scripts\\',
+    env: {
+        args: {
+            _: []
+        },
+        debug: false,
+        safe: false,
+        silent: false,
+        env: 'development',
+        version: '3.4.4',
+        init: true
+    },
+    extend: {
+        console: {
+            store: [Object],
+            alias: [Object]
+        },
+        deployer: {
+            store: [Object]
+        },
+        filter: {
+            store: [Object]
+        },
+        generator: {
+            id: 0,
+            store: [Object]
+        },
+        helper: {
+            store: [Object]
+        },
+        migrator: {
+            store: {}
+        },
+        processor: {
+            store: [Object]
+        },
+        renderer: {
+            store: [Object],
+            storeSync: [Object]
+        },
+        tag: {
+            env: [Object]
+        }
+    },
+    config: {
+        title: 666,
+        subtitle: null,
+        description: null,
+        author: 'awecg',
+        language: null,
+        timezone: null,
+        url: '//awecg.github.io/blog',
+        root: '/',
+        permalink: ':year/:month/:day/:title/',
+        permalink_defaults: null,
+        source_dir: 'source',
+        public_dir: 'public',
+        tag_dir: 'tags',
+        archive_dir: 'archives',
+        category_dir: 'categories',
+        code_dir: 'downloads/code',
+        i18n_dir: ':lang',
+        skip_render: ['readme.md'],
+        new_post_name: ':title.md',
+        default_layout: 'post',
+        titlecase: false,
+        external_link: true,
+        filename_case: 0,
+        render_drafts: false,
+        post_asset_folder: false,
+        relative_link: false,
+        future: true,
+        highlight: {
+            enable: true,
+            auto_detect: false,
+            line_number: true,
+            tab_replace: null
+        },
+        default_category: 'uncategorized',
+        category_map: null,
+        tag_map: null,
+        date_format: 'YYYY-MM-DD',
+        time_format: 'HH:mm:ss',
+        per_page: 10,
+        pagination_dir: 'page',
+        theme: 'vexo',
+        deploy: {
+            type: 'git',
+            repo: 'awecg.com:awecg/awecg.github.io',
+            branch: 'master',
+            message: '哈，更新啦——{{now(\'YYYY-MM-DD HH:mm:ss\')}}'
+        },
+        ignore: [],
+        index_generator: {
+            per_page: 10,
+            order_by: '-date',
+            path: ''
+        },
+        archive_generator: {
+            per_page: 10,
+            yearly: true,
+            monthly: true,
+            daily: false
+        },
+        category_generator: {
+            per_page: 10
+        },
+        tag_generator: {
+            per_page: 10
+        },
+        marked: {
+            gfm: true,
+            pedantic: false,
+            sanitize: false,
+            tables: true,
+            breaks: true,
+            smartLists: true,
+            smartypants: true,
+            modifyAnchors: '',
+            autolink: true
+        },
+        server: {
+            port: 4000,
+            log: false,
+            ip: '0.0.0.0',
+            compress: false,
+            header: true
+        }
+    },
+    log: {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _level: 30,
+        streams: [
+            [Object]
+        ],
+        serializers: {
+            err: [Function: val]
+        },
+        src: false,
+        fields: {
+            name: 'hexo',
+            hostname: 'DESKTOP-OKP7CM4',
+            pid: 5780
+        },
+        d: [Function: val],
+        i: [Function: val],
+        w: [Function: val],
+        e: [Function: val],
+        log: [Function: val],
+        haveNonRawStreams: false
+    },
+    render: {
+        context: {
+            domain: null,
+            _events: {},
+            _eventsCount: 0,
+            _maxListeners: undefined,
+            base_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\',
+            public_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\public\\',
+            source_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\source\\',
+            plugin_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\node_modules\\',
+            script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scripts\\',
+            scaffold_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scaffolds\\',
+            theme_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\',
+            theme_script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\scripts\\',
+            env: [Object],
+            extend: [Object],
+            config: [Object],
+            log: [Object],
+            render: [Object],
+            route: [Object],
+            post: [Object],
+            scaffold: [Object],
+            _dbLoaded: false,
+            _isGenerating: false,
+            database: [Object],
+            config_path: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\_config.yml',
+            source: [Object],
+            theme: [Object],
+            locals: [Object]
+        },
+        renderer: {
+            store: [Object],
+            storeSync: [Object]
+        }
+    },
+    route: {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        routes: {}
+    },
+    post: {
+        context: {
+            domain: null,
+            _events: {},
+            _eventsCount: 0,
+            _maxListeners: undefined,
+            base_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\',
+            public_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\public\\',
+            source_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\source\\',
+            plugin_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\node_modules\\',
+            script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scripts\\',
+            scaffold_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scaffolds\\',
+            theme_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\',
+            theme_script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\scripts\\',
+            env: [Object],
+            extend: [Object],
+            config: [Object],
+            log: [Object],
+            render: [Object],
+            route: [Object],
+            post: [Object],
+            scaffold: [Object],
+            _dbLoaded: false,
+            _isGenerating: false,
+            database: [Object],
+            config_path: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\_config.yml',
+            source: [Object],
+            theme: [Object],
+            locals: [Object]
+        }
+    },
+    scaffold: {
+        context: {
+            domain: null,
+            _events: {},
+            _eventsCount: 0,
+            _maxListeners: undefined,
+            base_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\',
+            public_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\public\\',
+            source_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\source\\',
+            plugin_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\node_modules\\',
+            script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scripts\\',
+            scaffold_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scaffolds\\',
+            theme_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\',
+            theme_script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\scripts\\',
+            env: [Object],
+            extend: [Object],
+            config: [Object],
+            log: [Object],
+            render: [Object],
+            route: [Object],
+            post: [Object],
+            scaffold: [Object],
+            _dbLoaded: false,
+            _isGenerating: false,
+            database: [Object],
+            config_path: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\_config.yml',
+            source: [Object],
+            theme: [Object],
+            locals: [Object]
+        },
+        scaffoldDir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scaffolds\\'
+    },
+    _dbLoaded: false,
+    _isGenerating: false,
+    database: {
+        options: {
+            version: 1,
+            onUpgrade: [Function: val],
+            onDowngrade: [Function: val],
+            path: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\db.json'
+        },
+        _models: {
+            Asset: [Object],
+            Cache: [Object],
+            Category: [Object],
+            Data: [Object],
+            Page: [Object],
+            Post: [Object],
+            PostAsset: [Object],
+            PostCategory: [Object],
+            PostTag: [Object],
+            Tag: [Object]
+        },
+        Model: [Function: val]
+    },
+    config_path: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\_config.yml',
+    source: {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        options: {
+            persistent: true
+        },
+        context: {
+            domain: null,
+            _events: {},
+            _eventsCount: 0,
+            _maxListeners: undefined,
+            base_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\',
+            public_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\public\\',
+            source_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\source\\',
+            plugin_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\node_modules\\',
+            script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scripts\\',
+            scaffold_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scaffolds\\',
+            theme_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\',
+            theme_script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\scripts\\',
+            env: [Object],
+            extend: [Object],
+            config: [Object],
+            log: [Object],
+            render: [Object],
+            route: [Object],
+            post: [Object],
+            scaffold: [Object],
+            _dbLoaded: false,
+            _isGenerating: false,
+            database: [Object],
+            config_path: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\_config.yml',
+            source: [Object],
+            theme: [Object],
+            locals: [Object]
+        },
+        base: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\source\\',
+        processors: [
+            [Object],
+            [Object],
+            [Object]
+        ],
+        _processingFiles: {},
+        watcher: null,
+        Cache: {
+            domain: null,
+            _events: {},
+            _eventsCount: 0,
+            _maxListeners: undefined,
+            name: 'Cache',
+            data: {},
+            _mutex: [Object],
+            schema: [Object],
+            length: 0,
+            Document: [Function: val],
+            Query: [Function: val],
+            compareFile: [Function: val]
+        },
+        File: [Function: val],
+        ignore: []
+    },
+    theme: {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        options: {
+            persistent: true
+        },
+        context: {
+            domain: null,
+            _events: {},
+            _eventsCount: 0,
+            _maxListeners: undefined,
+            base_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\',
+            public_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\public\\',
+            source_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\source\\',
+            plugin_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\node_modules\\',
+            script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scripts\\',
+            scaffold_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\scaffolds\\',
+            theme_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\',
+            theme_script_dir: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\scripts\\',
+            env: [Object],
+            extend: [Object],
+            config: [Object],
+            log: [Object],
+            render: [Object],
+            route: [Object],
+            post: [Object],
+            scaffold: [Object],
+            _dbLoaded: false,
+            _isGenerating: false,
+            database: [Object],
+            config_path: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\_config.yml',
+            source: [Object],
+            theme: [Object],
+            locals: [Object]
+        },
+        base: 'D:\\learnByDo\\awecg.github.io\\awecg.io\\themes\\vexo\\',
+        processors: [
+            [Object],
+            [Object],
+            [Object],
+            [Object]
+        ],
+        _processingFiles: {},
+        watcher: null,
+        Cache: {
+            domain: null,
+            _events: {},
+            _eventsCount: 0,
+            _maxListeners: undefined,
+            name: 'Cache',
+            data: {},
+            _mutex: [Object],
+            schema: [Object],
+            length: 0,
+            Document: [Function: val],
+            Query: [Function: val],
+            compareFile: [Function: val]
+        },
+        File: [Function: val],
+        ignore: [],
+        config: {},
+        views: {},
+        i18n: {
+            data: {},
+            languages: [Object]
+        },
+        View: [Function: val]
+    },
+    locals: {
+        cache: {
+            posts: null,
+            pages: null,
+            categories: null,
+            tags: null,
+            data: null
+        },
+        getters: {
+            posts: [Function: val],
+            pages: [Function: val],
+            categories: [Function: val],
+            tags: [Function: val],
+            data: [Function: val]
+        }
+    }
+}
+}
