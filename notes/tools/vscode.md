@@ -1,3 +1,4 @@
+vscode插件盘点。为卸载user版本，安装admin版本做准备。
 
 ## 插件
 ### Microsoft 官方自带
