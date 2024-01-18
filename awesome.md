@@ -4,7 +4,7 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 
 ## 前端admin模板 awesome-frontend-admin
 + 字节潘大佬整理的vue2模板，国内多数公司都在用 https://github.com/PanJiaChen/vue-admin-template
-+ https://github.com/ant-design/ant-design-pro
++ react模板 https://github.com/ant-design/ant-design-pro
 + vue3模板 https://github.com/vbenjs/vue-vben-admin
 + 国外高赞项目，使用MUI https://github.com/marmelab/react-admin
 + 基于Umi.js https://github.com/zuiidea/antd-admin
