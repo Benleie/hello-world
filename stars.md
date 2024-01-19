@@ -78,6 +78,6 @@ github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个�
 + [Jenn Im](https://www.youtube.com/@clothesencounters/videos) Korean girls daily skincare
 + [TopTennisTrainingNet](https://www.youtube.com/@TopTennisTrainingNet)
 + [Realmenrealstyle](https://www.youtube.com/@Realmenrealstyle/videos) 教你做个纯爷们
-+ [DrSusieGronski](https://www.youtube.com/@DrSusieGronski/videos) 专注男性表现的女博士
++ [DrSusieGronski](https://www.youtube.com/@DrSusieGTeam/videos) 专注男性表现的女博士
 + [Eric Berg半路出家的营养学网红。发音很纯正](https://www.youtube.com/@DrEricBergDC/videos)
 + [Abbey Sharp营养师](https://www.youtube.com/@AbbeysKitchen/videos)
