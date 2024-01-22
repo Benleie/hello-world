@@ -27,3 +27,10 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 ## nest.js admin
 + https://github.com/buqiyuan/nest-admin EP大佬的全栈项目
 + https://github.com/AmruthPillai/Reactive-Resume 前端在线简历制作的全栈项目
+
+## 值得关注的基础技术项目
+
+关注点：
+主要功能；调试环境配置，代码结构和构建工具；优秀代码风格；主要改动
+
++ axios HTTP client https://github.com/axios/axios
