@@ -33,4 +33,5 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 关注点：
 主要功能；调试环境配置，代码结构和构建工具；优秀代码风格；主要改动
 
-+ axios HTTP client https://github.com/axios/axios
++ axios HTTP-Client  https://github.com/axios/axios
++ Vue官方Router  https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md
