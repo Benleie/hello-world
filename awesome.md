@@ -35,4 +35,5 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 
 + axios HTTP-Client  https://github.com/axios/axios
 + Vue官方Router  https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md
++ vue use函数库，包含前端常见操作 https://github.com/vueuse/vueuse
 + mybatis-3，Java SQL mapper  https://github.com/mybatis/mybatis-3/releases
