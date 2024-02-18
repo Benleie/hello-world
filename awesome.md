@@ -37,6 +37,7 @@ github上有各种语言和框架的awesome仓库 https://zhuanlan.zhihu.com/p/1
 + Vue官方Router  https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md
 + vue use函数库，包含前端常见操作 https://github.com/vueuse/vueuse
 + mybatis-3，Java SQL mapper  https://github.com/mybatis/mybatis-3/releases
++ guava，谷歌造的轮子，日常工具库 https://github.com/google/guava
 
 ## 有趣的项目
 + golang编写，命令行git工具 https://github.com/cli/cli
