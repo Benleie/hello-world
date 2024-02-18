@@ -1,8 +1,6 @@
 ## 好的教程与资源
 [roadmap frontend](https://roadmap.sh/frontend)
 
-## 关注的blog
-+ 敖天宇 https://www.codesky.me
 
 ## 想了解的高赞项目
 github上有趣而颜好的项目实在太多了，可惜我还太菜，挨个撩不过来，先留着当备胎吧。
